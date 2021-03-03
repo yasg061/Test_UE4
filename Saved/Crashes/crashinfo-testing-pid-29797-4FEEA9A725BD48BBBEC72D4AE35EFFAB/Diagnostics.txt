@@ -1,0 +1,35 @@
+Generating report for minidump
+
+Application version 4.26.1.0
+ ... built from changelist 0
+
+OS version Linux 5.8.0-44-generic (network name: vertex)
+Running 8 x86_64 processors (16 logical cores)
+Exception was "SIGSEGV: invalid attempt to write memory at address 0x0000000000000003"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-Core.so!FGenericPlatformMisc::RaiseException(unsigned int) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:472]
+libUE4Editor-Core.so!FOutputDevice::LogfImpl(char16_t const*, ...) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Private/Misc/OutputDevice.cpp:61]
+libUE4Editor-Core.so!AssertFailedImplV(char const*, char const*, int, char16_t const*, __va_list_tag*) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:104]
+libUE4Editor-Core.so!FDebug::CheckVerifyFailedImpl(char const*, char const*, int, char16_t const*, ...) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:458]
+libUE4Editor-Sequencer.so!FSequencer::ZoomToFit() [/home/yasg061/UnrealEngine4_26/Engine/Source/Editor/Sequencer/Private/Sequencer.cpp:6847]
+libUE4Editor-Sequencer.so!SSequencerSection::OnMouseButtonDoubleClick(FGeometry const&, FPointerEvent const&) [/home/yasg061/UnrealEngine4_26/Engine/Source/Editor/Sequencer/Private/SSequencerSection.cpp:1587]
+libUE4Editor-Slate.so!FSlateApplication::RoutePointerDoubleClickEvent(FWidgetPath const&, FPointerEvent const&) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5281]
+libUE4Editor-Slate.so!FSlateApplication::ProcessMouseButtonDoubleClickEvent(TSharedPtr<FGenericWindow, (ESPMode)0> const&, FPointerEvent const&) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5266]
+libUE4Editor-Slate.so!FSlateApplication::OnMouseDoubleClick(TSharedPtr<FGenericWindow, (ESPMode)0> const&, EMouseButtons::Type, FVector2D) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5231]
+libUE4Editor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:393]
+libUE4Editor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:428]
+UE4Editor!FEngineLoop::Tick() [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:4748]
+UE4Editor!GuardedMain(char16_t const*) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Launch/Private/Launch.cpp:171]
+libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:264]
+libc.so.6!__libc_start_main(+0xf2)
+UE4Editor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

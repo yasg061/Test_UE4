@@ -1,0 +1,25 @@
+Generating report for minidump
+
+Application version 4.26.1.0
+ ... built from changelist 0
+
+OS version Linux 5.8.0-44-generic (network name: vertex)
+Running 8 x86_64 processors (16 logical cores)
+Exception was "SIGSEGV: invalid attempt to read memory at address 0x0000000000000000"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-Core.so!FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:693]
+libUE4Editor-Core.so!FGenericPlatformStackWalk::StackWalkAndDump(char*, unsigned long, int, void*) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformStackWalk.cpp:178]
+libUE4Editor-Core.so!FUnixCrashContext::CaptureStackTrace() [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformCrashContext.cpp:288]
+libUE4Editor-UnixCommonStartup.so!CommonUnixCrashHandler(FGenericCrashContext const&) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:35]
+libUE4Editor-Core.so!PlatformCrashHandler(int, siginfo_t*, void*) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformCrashContext.cpp:845]
+libpthread.so.0!UnknownFunction(0x153bf)
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

@@ -1,0 +1,12 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{00047E72-08D8-D426-B587-DA5222493CA3}",
+	"Category": "",
+	"Description": "",
+	"Plugins": [
+		{
+			"Name": "NiagaraExtras",
+			"Enabled": true
+		}
+	]
+}

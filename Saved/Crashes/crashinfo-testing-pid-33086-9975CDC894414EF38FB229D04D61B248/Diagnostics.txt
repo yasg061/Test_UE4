@@ -1,0 +1,33 @@
+Generating report for minidump
+
+Application version 4.26.1.0
+ ... built from changelist 0
+
+OS version Linux 5.8.0-44-generic (network name: vertex)
+Running 8 x86_64 processors (16 logical cores)
+Exception was "SIGSEGV: invalid attempt to read memory at address 0x0000000041a6c000"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-Engine.so!FPrecomputedVolumetricLightmapData::RemoveFromSceneData(FPrecomputedVolumetricLightmapData*, int) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Engine/Private/PrecomputedVolumetricLightmap.cpp:572]
+libUE4Editor-Renderer.so!FVolumetricLightmapSceneData::RemoveLevelVolume(FPrecomputedVolumetricLightmap const*) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Renderer/Private/RendererScene.cpp:2324]
+libUE4Editor-Renderer.so!FScene::~FScene() [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Renderer/Private/RendererScene.cpp:1180]
+libUE4Editor-Renderer.so!FScene::~FScene() [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Renderer/Private/RendererScene.cpp:1161]
+libUE4Editor-Renderer.so!TEnqueueUniqueRenderCommandType<FScene::Release()::FReleaseCommandName, FScene::Release()::$_120>::DoTask(ENamedThreads::Type, TRefCountPtr<FGraphEvent> const&) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/RenderCore/Public/RenderingThread.h:183]
+libUE4Editor-Renderer.so!TGraphTask<TEnqueueUniqueRenderCommandType<FScene::Release()::FReleaseCommandName, FScene::Release()::$_120> >::ExecuteTask(TArray<FBaseGraphTask*, TSizedDefaultAllocator<32> >&, ENamedThreads::Type) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Async/TaskGraphInterfaces.h:886]
+libUE4Editor-Core.so!FNamedTaskThread::ProcessTasksNamedThread(int, bool) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Private/Async/TaskGraph.cpp:709]
+libUE4Editor-Core.so!FNamedTaskThread::ProcessTasksUntilQuit(int) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Private/Async/TaskGraph.cpp:600]
+libUE4Editor-RenderCore.so!RenderingThreadMain(FEvent*) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/RenderCore/Private/RenderingThread.cpp:372]
+libUE4Editor-RenderCore.so!FRenderingThread::Run() [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/RenderCore/Private/RenderingThread.cpp:526]
+libUE4Editor-Core.so!FRunnableThreadPThread::Run() [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Private/HAL/PThreadRunnableThread.cpp:25]
+libUE4Editor-Core.so!FRunnableThreadPThread::_ThreadProc(void*) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Private/HAL/PThreadRunnableThread.h:185]
+libpthread.so.0!UnknownFunction(0x9608)
+libc.so.6!clone(+0x42)
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
