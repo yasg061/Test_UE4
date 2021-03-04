@@ -1,0 +1,1703 @@
+﻿Log file open, 03/03/21 13:45:41
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: Test_UE4
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.091457
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin NiagaraExtras
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OculusVR
+LogInit: Using libcurl 7.65.3-DEV
+LogInit:  - built for x86_64-unknown-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.1.1c
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-0
+LogInit: Engine Version: 4.26.1-0+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-0+++UE4+Release-4.26
+LogInit: Net CL: 0
+LogInit: OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: AMD Ryzen 7 3800X 8-Core Processor             , GPU: GenericGPUBrand
+LogInit: Compiled (64-bit): Feb 18 2021 16:39:48
+LogInit: Compiled with Clang: 10.0.1 
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line: 
+LogInit: Base Directory: /home/yasg061/UnrealEngine4_26/Engine/Binaries/Linux/
+LogInit: Allocator: binned2
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Config/Linux/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Config/Linux/Engine.ini]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Config/Linux/Engine.ini]
+[2021.03.03-19.45.47:409][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Config/Linux/Engine.ini]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Config/Linux/Engine.ini]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.03.03-19.45.47:409][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Config/Linux/Engine.ini]
+[2021.03.03-19.45.47:409][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Config/Linux/Engine.ini]
+[2021.03.03-19.45.47:409][  0]LogInit: Initializing SDL.
+[2021.03.03-19.45.47:567][  0]LogInit: Initialized SDL 2.0.12 revision: 13609 (hg-13609:34cc7d3b69d3) (compiled against 2.0.12)
+[2021.03.03-19.45.47:567][  0]LogInit: Using SDL video driver 'x11'
+[2021.03.03-19.45.47:567][  0]LogInit: Display metrics:
+[2021.03.03-19.45.47:567][  0]LogInit:   PrimaryDisplayWidth: 1920
+[2021.03.03-19.45.47:567][  0]LogInit:   PrimaryDisplayHeight: 1080
+[2021.03.03-19.45.47:567][  0]LogInit:   PrimaryDisplayWorkAreaRect:
+[2021.03.03-19.45.47:567][  0]LogInit:     Left=0, Top=27, Right=1920, Bottom=1080
+[2021.03.03-19.45.47:567][  0]LogInit:   VirtualDisplayRect:
+[2021.03.03-19.45.47:567][  0]LogInit:     Left=0, Top=27, Right=1920, Bottom=1080
+[2021.03.03-19.45.47:567][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2021.03.03-19.45.47:567][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2021.03.03-19.45.47:567][  0]LogInit:   Number of monitors: 1
+[2021.03.03-19.45.47:567][  0]LogInit:     Monitor 0
+[2021.03.03-19.45.47:567][  0]LogInit:       Name: HP 27f 27"
+[2021.03.03-19.45.47:567][  0]LogInit:       ID: display0
+[2021.03.03-19.45.47:567][  0]LogInit:       NativeWidth: 1920
+[2021.03.03-19.45.47:567][  0]LogInit:       NativeHeight: 1080
+[2021.03.03-19.45.47:567][  0]LogInit:       bIsPrimary: true
+[2021.03.03-19.45.47:567][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Config/Linux/Scalability.ini]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Config/Linux/Scalability.ini]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Config/Linux/Scalability.ini]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Config/Linux/Scalability.ini]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.03-19.45.47:567][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Config/Linux/Scalability.ini]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Config/Linux/Scalability.ini]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Config/Linux/Scalability.ini]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Config/Linux/Scalability.ini]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.03.03-19.45.47:568][  0]LogLinux: Selected Device Profile: [Linux]
+[2021.03.03-19.45.47:568][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Linux]
+[2021.03.03-19.45.47:568][  0]LogHAL: Display: Platform has ~ 4 GB [33666220032 / 4294967296 / 32], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.03.03-19.45.47:568][  0]LogInit: Going up to parent DeviceProfile []
+[2021.03.03-19.45.47:568][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Config/Linux/Scalability.ini]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Config/Linux/Scalability.ini]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Config/Linux/Scalability.ini]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Config/Linux/Scalability.ini]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.03-19.45.47:568][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Config/Linux/Scalability.ini]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Config/Linux/Scalability.ini]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Config/Linux/Scalability.ini]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Config/Linux/Scalability.ini]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.03.03-19.45.47:569][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Config/Linux/Engine.ini]
+[2021.03.03-19.45.47:569][  0]LogConfig: Setting CVar [[g.TimeoutForBlockOnRenderFence:60000]]
+[2021.03.03-19.45.47:569][  0]LogInit: Unix hardware info:
+[2021.03.03-19.45.47:569][  0]LogInit:  - we are the first instance of this executable
+[2021.03.03-19.45.47:569][  0]LogInit:  - this process' id (pid) is 31361, parent process' id (ppid) is 31360
+[2021.03.03-19.45.47:569][  0]LogInit:  - we are not running under debugger
+[2021.03.03-19.45.47:569][  0]LogInit:  - machine network name is 'vertex'
+[2021.03.03-19.45.47:569][  0]LogInit:  - user name is 'yasg061' (yasg061)
+[2021.03.03-19.45.47:569][  0]LogInit:  - we're logged in locally
+[2021.03.03-19.45.47:569][  0]LogInit:  - we're running with rendering
+[2021.03.03-19.45.47:569][  0]LogInit:  - CPU: AuthenticAMD 'AMD Ryzen 7 3800X 8-Core Processor             ' (signature: 0x870F10)
+[2021.03.03-19.45.47:569][  0]LogInit:  - Number of physical cores available for the process: 8
+[2021.03.03-19.45.47:569][  0]LogInit:  - Number of logical cores available for the process: 16
+[2021.03.03-19.45.47:569][  0]LogInit:  - Cache line size: 64
+[2021.03.03-19.45.47:569][  0]LogInit:  - Memory allocator used: binned2
+[2021.03.03-19.45.47:569][  0]LogInit:  - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+[2021.03.03-19.45.47:569][  0]LogInit:  - This is an internal build.
+[2021.03.03-19.45.47:569][  0]LogCore: Benchmarking clocks:
+[2021.03.03-19.45.47:569][  0]LogCore:  - CLOCK_MONOTONIC (id=1) can sustain 48076916 (48077K, 48M) calls per second without zero deltas.
+[2021.03.03-19.45.47:569][  0]LogCore:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 47505783 (47506K, 48M) calls per second without zero deltas.
+[2021.03.03-19.45.47:569][  0]LogCore:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 220183751 (220184K, 220M) calls per second with 99.999882% zero deltas.
+[2021.03.03-19.45.47:569][  0]LogCore: Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+[2021.03.03-19.45.47:569][  0]LogInit: Unix-specific commandline switches:
+[2021.03.03-19.45.47:569][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2021.03.03-19.45.47:569][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2021.03.03-19.45.47:569][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2021.03.03-19.45.47:569][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2021.03.03-19.45.47:569][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2021.03.03-19.45.47:569][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2021.03.03-19.45.47:569][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2021.03.03-19.45.47:569][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2021.03.03-19.45.47:569][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2021.03.03-19.45.47:569][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2021.03.03-19.45.47:569][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2021.03.03-19.45.47:569][  0]LogInit:  - Physical RAM available (not considering process quota): 32 GB (32106 MB, 32877168 KB, 33666220032 bytes)
+[2021.03.03-19.45.47:569][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1.4
+[2021.03.03-19.45.47:569][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2021.03.03-19.45.47:589][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.03.03-19.45.47:620][  0]LogInit: Using OS detected language (en-US).
+[2021.03.03-19.45.47:620][  0]LogInit: Using OS detected locale (en-US).
+[2021.03.03-19.45.47:620][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.03.03-19.45.47:819][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.03.03-19.45.47:819][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.03.03-19.45.48:607][  0]LogInit: Using SDL_WINDOW_VULKAN
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: - Found 8 instance layers
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_LAYER_LUNARG_standard_validation
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_LAYER_MESA_device_select
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_LAYER_MESA_overlay
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_LAYER_NV_optimus
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_LAYER_VALVE_steam_fossilize_32
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_LAYER_VALVE_steam_fossilize_64
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_LAYER_VALVE_steam_overlay_32
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_LAYER_VALVE_steam_overlay_64
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: - Found 18 instance extensions
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_EXT_acquire_xlib_display
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_EXT_debug_report
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_EXT_debug_utils
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_EXT_direct_mode_display
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_EXT_display_surface_counter
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_KHR_device_group_creation
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_KHR_display
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_KHR_external_fence_capabilities
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_KHR_external_memory_capabilities
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_KHR_external_semaphore_capabilities
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_KHR_get_display_properties2
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_KHR_get_physical_device_properties2
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_KHR_get_surface_capabilities2
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_KHR_surface
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_KHR_surface_protected_capabilities
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_KHR_wayland_surface
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_KHR_xcb_surface
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: * VK_KHR_xlib_surface
+[2021.03.03-19.45.48:632][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: Not using instance layers
+[2021.03.03-19.45.48:632][  0]LogVulkanRHI: Display: Using instance extensions
+[2021.03.03-19.45.48:633][  0]LogVulkanRHI: Display: * VK_KHR_surface
+[2021.03.03-19.45.48:633][  0]LogVulkanRHI: Display: * VK_KHR_xlib_surface
+[2021.03.03-19.45.48:633][  0]LogVulkanRHI: Display: * VK_KHR_external_memory_capabilities
+[2021.03.03-19.45.48:633][  0]LogVulkanRHI: Display: * VK_KHR_get_physical_device_properties2
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: Found 1 device(s)
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: Device 0: GeForce GTX 1080 Ti
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: - API 1.2.155(0x40209b) Driver 0x7309c000 VendorId 0x10de
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: - DeviceID 0x1b06 Type Discrete GPU
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: - Max Descriptor Sets Bound 32 Timestamps 1
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: - Device Properties driverName: NVIDIA
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: - Device Properties driverInfo: 460.39
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: -    Found device layer VK_LAYER_MESA_device_select
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_4444_formats
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_blend_operation_advanced
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_buffer_device_address
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_calibrated_timestamps
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_conditional_rendering
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_conservative_rasterization
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_custom_border_color
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_depth_clip_enable
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_depth_range_unrestricted
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_descriptor_indexing
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_discard_rectangles
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_display_control
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_extended_dynamic_state
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_external_memory_host
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_fragment_shader_interlock
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_global_priority
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_host_query_reset
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_image_robustness
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_index_type_uint8
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_inline_uniform_block
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_line_rasterization
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_memory_budget
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_pci_bus_info
+[2021.03.03-19.45.48:639][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_pipeline_creation_cache_control
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_pipeline_creation_feedback
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_post_depth_coverage
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_private_data
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_robustness2
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_sample_locations
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_sampler_filter_minmax
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_scalar_block_layout
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_separate_stencil_usage
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_shader_atomic_float
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_shader_demote_to_helper_invocation
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_shader_image_atomic_int64
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_shader_subgroup_ballot
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_shader_subgroup_vote
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_shader_viewport_index_layer
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_subgroup_size_control
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_texel_buffer_alignment
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_tooling_info
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_transform_feedback
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_vertex_attribute_divisor
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_ycbcr_image_arrays
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_16bit_storage
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_8bit_storage
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_acceleration_structure
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_bind_memory2
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_buffer_device_address
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_copy_commands2
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_create_renderpass2
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_dedicated_allocation
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_deferred_host_operations
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_depth_stencil_resolve
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_descriptor_update_template
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_device_group
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_draw_indirect_count
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_driver_properties
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_external_fence
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_external_fence_fd
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_external_memory
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_external_memory_fd
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_external_semaphore
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_external_semaphore_fd
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_get_memory_requirements2
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_image_format_list
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_imageless_framebuffer
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_maintenance1
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_maintenance2
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_maintenance3
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_multiview
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_pipeline_executable_properties
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_pipeline_library
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_push_descriptor
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_ray_tracing_pipeline
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_relaxed_block_layout
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_sampler_mirror_clamp_to_edge
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_sampler_ycbcr_conversion
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_separate_depth_stencil_layouts
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_shader_atomic_int64
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_shader_clock
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_shader_draw_parameters
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_shader_float16_int8
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_shader_float_controls
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_shader_non_semantic_info
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_shader_subgroup_extended_types
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_shader_terminate_invocation
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_spirv_1_4
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_storage_buffer_storage_class
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_swapchain
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_swapchain_mutable_format
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_timeline_semaphore
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_uniform_buffer_standard_layout
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_variable_pointers
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_vulkan_memory_model
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_clip_space_w_scaling
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_coverage_reduction_mode
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_dedicated_allocation
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_dedicated_allocation_image_aliasing
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_device_diagnostic_checkpoints
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_device_diagnostics_config
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_device_generated_commands
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_fill_rectangle
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_fragment_coverage_to_color
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_framebuffer_mixed_samples
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_geometry_shader_passthrough
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_ray_tracing
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_sample_mask_override_coverage
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_shader_sm_builtins
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_shader_subgroup_partitioned
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_viewport_array2
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_viewport_swizzle
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: -    Found device extension VK_NVX_multiview_per_view_attributes
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: Using Device 0: Geometry 1 Tessellation 1 BufferAtomic64 1
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: Found 3 Queue Families
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: Initializing Queue Family 0: 16 queues Gfx Compute Xfer Sparse
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: Initializing Queue Family 1: 2 queues Xfer Sparse
+[2021.03.03-19.45.48:640][  0]LogVulkanRHI: Display: Skipping unnecessary Queue Family 2: 8 queues Compute Xfer Sparse
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display: Using device layers
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display: Using device extensions
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display: * VK_KHR_driver_properties
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display: * VK_KHR_get_memory_requirements2
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display: * VK_KHR_dedicated_allocation
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display: * VK_KHR_swapchain
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display: * VK_KHR_maintenance1
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display: * VK_KHR_maintenance2
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display: * VK_EXT_memory_budget
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display: * VK_EXT_scalar_block_layout
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display: * VK_KHR_shader_atomic_int64
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display: * VK_KHR_image_format_list
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display: 3 Device Memory Heaps; Max memory allocations -1
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display:  0: Flags 0x1 Size 11811160064 (11264.00 MB) GPU
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display:  1: Flags 0x0 Size 25249665024 (24079.96 MB) 
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display:  2: Flags 0x1 Size 257949696 (246.00 MB) GPU
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display: 11 Device Memory Types (Not unified)
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display:  7: Flags 0x00001 Heap  0  Local                                         
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display:  0: Flags 0x00000 Heap  1                                                
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display:  1: Flags 0x00000 Heap  1                                                
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display:  2: Flags 0x00000 Heap  1                                                
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display:  3: Flags 0x00000 Heap  1                                                
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display:  4: Flags 0x00000 Heap  1                                                
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display:  5: Flags 0x00000 Heap  1                                                
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display:  6: Flags 0x00000 Heap  1                                                
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display:  8: Flags 0x00006 Heap  1        HostVisible HostCoherent                
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display:  9: Flags 0x0000e Heap  1        HostVisible HostCoherent HostCached     
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display: 10: Flags 0x00007 Heap  2  Local HostVisible HostCoherent                
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display: Host Allocation Percentage   0.00% -          0.00MB / 10759.938MB
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display: Memory Budget
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display: 	         | Usage                     | Budget          | Size            |
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display: 	---------|---------------------------------------------------------------|
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display: 	 HEAP 00 |   0.01% /         0.625mb |     10759.938mb |     11264.000mb |
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display: 	 HEAP 01 |   0.09% /        21.293mb |     24079.957mb |     24079.957mb |
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display: 	 HEAP 02 |   3.58% /         8.812mb |       237.188mb |       246.000mb |
+[2021.03.03-19.45.48:763][  0]LogVulkanRHI: Display: 	---------|---------------------------------------------------------------|
+[2021.03.03-19.45.48:784][  0]LogVulkanRHI: Display: FVulkanPipelineStateCacheManager: Binary pipeline cache '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/VulkanPSO.cache.10de.1b06' not found.
+[2021.03.03-19.45.48:784][  0]LogVulkanRHI: Display: Nvidia User Driver Version = 460.39
+[2021.03.03-19.45.48:788][  0]LogRHI: Texture pool is 8057 MB (70% of 11510 MB)
+[2021.03.03-19.45.49:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.03.03-19.45.49:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.03.03-19.45.49:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.03.03-19.45.49:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.03.03-19.45.49:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.03.03-19.45.49:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.03.03-19.45.49:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.03.03-19.45.49:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.03.03-19.45.49:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.03.03-19.45.49:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.03.03-19.45.49:761][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.03.03-19.45.50:078][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.03.03-19.45.50:389][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.03.03-19.45.50:697][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.03.03-19.45.51:010][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.03.03-19.45.51:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.03.03-19.45.51:638][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.03.03-19.45.51:641][  0]LogTargetPlatformManager: Display: Building Assets For Linux
+[2021.03.03-19.45.52:455][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.03.03-19.45.52:455][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Intermediate/Shaders/WorkingDirectory/31361/).
+[2021.03.03-19.45.52:456][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Intermediate/Shaders/tmp/B6DD2EB34AEA4A26B996F96EB9582D76/'.
+[2021.03.03-19.45.52:456][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.03.03-19.45.53:399][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.03.03-19.45.53:445][  0]LogDerivedDataCache: Loaded boot cache 0.05s 96MB ../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/DerivedDataCache/Boot.ddc.
+[2021.03.03-19.45.53:445][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/DerivedDataCache/Boot.ddc
+[2021.03.03-19.45.53:445][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.03.03-19.45.53:445][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.03.03-19.45.53:445][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.03.03-19.45.53:445][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2021.03.03-19.45.53:449][  0]LogDerivedDataCache: Speed tests for ../../../Engine/DerivedDataCache took 0.00 seconds
+[2021.03.03-19.45.53:449][  0]LogDerivedDataCache: Display: Performance to ../../../Engine/DerivedDataCache: Latency=0.00ms. RandomReadSpeed=4924.30MBs, RandomWriteSpeed=263.80MBs. Assigned SpeedClass 'Local'
+[2021.03.03-19.45.53:449][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2021.03.03-19.45.53:449][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.03.03-19.45.53:449][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.03.03-19.45.53:488][  0]LogSlate: Using FreeType 2.10.0
+[2021.03.03-19.45.53:488][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.03.03-19.45.53:521][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
+[2021.03.03-19.45.53:727][  0]LogLinux: Selected Device Profile: [Linux]
+[2021.03.03-19.45.53:727][  0]LogInit: Active device profile: [0x7f66367a4b00][0x7f6636abba40 49] Linux
+[2021.03.03-19.45.53:727][  0]LogInit: Profiles: [0x7f66367ac600][0x7f6657485d40 49] Windows, [0x7f66367ac400][0x7f6657484600 49] WindowsNoEditor, [0x7f66367ac300][0x7f6657482ec0 49] WindowsServer, [0x7f66367ac200][0x7f6657481780 49] WindowsClient, [0x7f66367ac100][0x7f6657480040 49] IOS, [0x7f66367abf00][0x7f6657b1e8c0 49] iPadAir, [0x7f66367abe00][0x7f6657b1d180 49] iPadAir2, [0x7f6636882500][0x7f6657b1a300 49] IPadPro, [0x7f6636882600][0x7f6657b1ba40 49] iPadAir3, [0x7f66367af100][0x7f6657b18bc0 49] iPadAir4, [0x7f66367af400][0x7f6657b17480 49] iPadMini2, [0x7f66367ab800][0x7f66368ee8c0 49] iPadMini3, [0x7f66367ab700][0x7f66368ed180 49] iPadMini4, [0x7f66367ab600][0x7f66368eba40 49] iPadMini5, [0x7f6636887200][0x7f66368e8bc0 49] iPhone6, [0x7f6636887300][0x7f66368ea300 49] iPodTouch6, [0x7f6636882a00][0x7f66368e5d40 49] iPhone7, [0x7f6636882b00][0x7f66368e7480 49] iPodTouch7, [0x7f66367af800][0x7f66368e4600 49] iPhone5S, [0x7f66367af900][0x7f66368e2ec0 49] iPhone6Plus, [0x7f66367afa00][0x7f66368e1780 49] iPhone6S, [0x7f66367afb00][0x7f66368e0040 49] iPhone6SPlus, [0x7f66367a6100][0x7f66368fe8c0 49] iPhone7Plus, [0x7f66367aba00][0x7f66368fd180 49] iPhoneSE, [0x7f66367ab900][0x7f66368fba40 49] iPhone8, [0x7f6636886000][0x7f66368fa300 49] iPhone8Plus, [0x7f66367abd00][0x7f66368f8bc0 49] iPhoneX, [0x7f66367abb00][0x7f66368f7480 49] iPhoneXS, [0x7f6636882200][0x7f66368f5d40 49] iPhoneXSMax, [0x7f66367abc00][0x7f66368f4600 49] iPhoneXR, [0x7f6636887400][0x7f66368f2ec0 49] iPhone11, [0x7f66367aff00][0x7f66368f1780 49] iPhone11Pro, [0x7f66367aa800][0x7f66368f0040 49] iPhone11ProMax, [0x7f66367aa900][0x7f663693e8c0 49] iPhoneSE2, [0x7f66367aaa00][0x7f663693d180 49] iPhone12Mini, [0x7f66367aab00][0x7f663693ba40 49] iPhone12, [0x7f66367aac00][0x7f663693a300 49] iPhone12Pro, [0x7f66367aad00][0x7f6636938bc0 49] iPhone12ProMax, [0x7f66367aae00][0x7f6636937480 49] iPadPro105, [0x7f66367aaf00][0x7f6636935d40 49] iPadPro129, [0x7f66367ab000][0x7f6636934600 49] iPadPro97, [0x7f66367ab100][0x7f6636932ec0 49] iPadPro2_129, [0x7f66367ab200][0x7f6636931780 49] iPad5, [0x7f66367ab300][0x7f6636930040 49] iPad6, [0x7f66367af500][0x7f6636a6e8c0 49] iPad7, [0x7f66367af600][0x7f6636a6d180 49] iPad8, [0x7f66367ab500][0x7f6636a6ba40 49] iPadPro11, [0x7f66367ab400][0x7f6636a6a300 49] iPadPro2_11, [0x7f6636882400][0x7f6636a68bc0 49] iPadPro3_129, [0x7f66367afc00][0x7f6636a67480 49] iPadPro4_129, [0x7f66367afd00][0x7f6636a65d40 49] AppleTV, [0x7f66367afe00][0x7f6636a64600 49] AppleTV4K, [0x7f6636882900][0x7f6636a62ec0 49] TVOS, [0x7f6636882800][0x7f6636a61780 49] Mac, [0x7f6636882700][0x7f6636a60040 49] MacClient, [0x7f66367a7100][0x7f6636abe8c0 49] MacNoEditor, [0x7f66367a4a00][0x7f6636abd180 49] MacServer, [0x7f66367a4b00][0x7f6636abba40 49] Linux, [0x7f66367a4c00][0x7f6636aba300 49] LinuxNoEditor, [0x7f66367a4d00][0x7f6636ab8bc0 49] LinuxAArch64NoEditor, [0x7f66367a5f00][0x7f6636ab7480 49] LinuxClient, [0x7f66367a5e00][0x7f6636ab5d40 49] LinuxAArch64Client, [0x7f66367a4600][0x7f6636ab4600 49] LinuxServer, [0x7f66367a4400][0x7f663697e8c0 49] LinuxAArch64Server, [0x7f66367a4500][0x7f663697d180 49] Android, [0x7f66367a4300][0x7f663697ba40 49] Android_Low, [0x7f66365be900][0x7f663697a300 49] Android_Mid, [0x7f66367a7400][0x7f6636978bc0 49] Android_High, [0x7f66367a5a00][0x7f6636977480 49] Android_Default, [0x7f66367a5900][0x7f6636975d40 49] Android_Adreno4xx, [0x7f66367a5b00][0x7f6636974600 49] Android_Adreno5xx_Low, [0x7f66367a5c00][0x7f6636972ec0 49] Android_Adreno5xx, [0x7f66367a7300][0x7f6636971780 49] Android_Adreno6xx, [0x7f66367a5500][0x7f6636970040 49] Android_Adreno6xx_Vulkan, [0x7f66367a5400][0x7f6636cee8c0 49] Android_Mali_T6xx, [0x7f66367a5600][0x7f6636ced180 49] Android_Mali_T7xx, [0x7f66367a5700][0x7f6636ceba40 49] Android_Mali_T8xx, [0x7f66367a7200][0x7f6636cea300 49] Android_Mali_G71, [0x7f66367a5000][0x7f6636ce8bc0 49] Android_Mali_G72, [0x7f66367a8100][0x7f6636ce7480 49] Android_Mali_G72_Vulkan, [0x7f6636882c00][0x7f6636ce5d40 49] Android_Mali_G76, [0x7f6636882e00][0x7f6636ce4600 49] Android_Mali_G76_Vulkan, [0x7f6636882d00][0x7f6636ce2ec0 49] Android_Mali_G77, [0x7f6636882f00][0x7f6636ce1780 49] Android_Mali_G77_Vulkan, [0x7f6636883000][0x7f6636ce0040 49] Android_Vulkan_SM5, [0x7f6636883100][0x7f6636cfe8c0 49] Android_PowerVR_G6xxx, [0x7f6636883200][0x7f6636cfd180 49] Android_PowerVR_GT7xxx, [0x7f6636883300][0x7f6636cfba40 49] Android_PowerVR_GE8xxx, [0x7f6636883400][0x7f6636cfa300 49] Android_PowerVR_GM9xxx, [0x7f6636883500][0x7f6636cf8bc0 49] Android_PowerVR_GM9xxx_Vulkan, [0x7f6636883600][0x7f6636cf7480 49] Android_TegraK1, [0x7f6636883700][0x7f6636cf5d40 49] Android_Unknown_Vulkan, [0x7f6636883800][0x7f6636cf4600 49] Lumin, [0x7f6636883a00][0x7f6636cf2ec0 49] Lumin_Desktop, [0x7f6636883b00][0x7f6636cf1780 49] HoloLens, 
+[2021.03.03-19.45.55:400][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.03.03-19.45.55:400][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.03.03-19.45.55:400][  0]LogMeshReduction: No automatic mesh merging module available
+[2021.03.03-19.45.55:400][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.03.03-19.45.55:400][  0]LogMeshMerging: No automatic mesh merging module available
+[2021.03.03-19.45.55:400][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.03.03-19.45.55:779][  0]LogNetVersion: Test_UE4 1.0.0, NetCL: 0, EngineNetVer: 16, GameNetVer: 0 (Checksum: 291772150)
+[2021.03.03-19.45.57:153][  0]LogPackageLocalizationCache: Processed 23 localized package path(s) for 1 prioritized culture(s) in 0.039324 seconds
+[2021.03.03-19.45.57:158][  0]LogUObjectArray: 16647 objects as part of root set at end of initial load.
+[2021.03.03-19.45.57:158][  0]LogUObjectAllocator: 4162696 out of 0 bytes used by permanent object pool.
+[2021.03.03-19.45.57:158][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.03.03-19.45.57:633][  0]LogHAL: Linux SourceCodeAccessSettings: NullSourceCodeAccessor
+[2021.03.03-19.46.03:018][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.03.03-19.46.04:733][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.03.03-19.46.15:050][  0]SourceControl: Source control is disabled
+[2021.03.03-19.46.15:050][  0]SourceControl: Source control is disabled
+[2021.03.03-19.46.15:343][  0]SourceControl: Source control is disabled
+[2021.03.03-19.46.15:346][  0]LogUProjectInfo: Found projects:
+[2021.03.03-19.46.16:465][  0]SourceControl: Source control is disabled
+[2021.03.03-19.46.17:140][  0]SourceControl: Source control is disabled
+[2021.03.03-19.46.26:390][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.03.03-19.46.29:584][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.03-19.46.29:584][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.03-19.46.31:263][  0]LogCollectionManager: Loaded 0 collections in 0.001302 seconds
+[2021.03.03-19.46.31:561][  0]LogFileCache: Scanning file cache for directory '/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Collections/' took 0.00s
+[2021.03.03-19.46.31:561][  0]LogFileCache: Scanning file cache for directory '/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Developers/yasg061/Collections/' took 0.00s
+[2021.03.03-19.46.31:561][  0]LogFileCache: Scanning file cache for directory '/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Collections/' took 0.00s
+[2021.03.03-19.46.32:378][  0]LogEngine: Initializing Engine...
+[2021.03.03-19.46.32:379][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.03-19.46.32:379][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.03.03-19.46.32:471][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.03.03-19.46.33:742][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.03.03-19.46.33:746][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.03.03-19.46.33:746][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.03.03-19.46.33:746][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.03.03-19.46.33:747][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.03-19.46.33:747][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.03-19.46.33:747][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.03-19.46.33:747][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.03-19.46.33:747][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.03-19.46.33:747][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.03-19.46.33:747][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.03-19.46.33:747][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.03-19.46.33:747][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.03-19.46.33:747][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.03-19.46.33:751][  0]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2021.03.03-19.46.34:046][  0]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2021.03.03-19.46.34:049][  0]LogAudioMixer: Display: Using Audio Device Default Audio Device
+[2021.03.03-19.46.34:049][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.03-19.46.34:053][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.03-19.46.34:053][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.03-19.46.34:055][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.03-19.46.34:055][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144
+[2021.03.03-19.46.34:055][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.03-19.46.34:055][  0]LogInit: FAudioDevice initialized.
+[2021.03.03-19.46.34:055][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.03.03-19.46.34:055][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.03.03-19.46.34:731][  0]LogDerivedDataCache: Saved boot cache 0.68s 96MB ../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/DerivedDataCache/Boot.ddc.
+[2021.03.03-19.46.34:734][  0]LogInit: Texture streaming: Enabled
+[2021.03.03-19.46.34:738][  0]LogAnalytics: Display: [UEEditor.UnrealEngine.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.1-0+++UE4+Release-4.26
+[2021.03.03-19.46.34:743][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.03.03-19.46.34:743][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.03.03-19.46.34:744][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.03.03-19.46.35:879][  0]LogInit: Transaction tracking system initialized
+[2021.03.03-19.46.38:018][  0]BlueprintLog: New page: Editor Load
+[2021.03.03-19.46.43:604][  0]LocalizationService: Localization service is disabled
+[2021.03.03-19.46.44:864][  0]TimingProfiler: Initialize
+[2021.03.03-19.46.44:864][  0]TimingProfiler: OnSessionChanged
+[2021.03.03-19.46.44:864][  0]LoadingProfiler: Initialize
+[2021.03.03-19.46.44:864][  0]LoadingProfiler: OnSessionChanged
+[2021.03.03-19.46.44:864][  0]NetworkingProfiler: Initialize
+[2021.03.03-19.46.44:864][  0]NetworkingProfiler: OnSessionChanged
+[2021.03.03-19.46.44:864][  0]MemoryProfiler: Initialize
+[2021.03.03-19.46.44:864][  0]MemoryProfiler: OnSessionChanged
+[2021.03.03-19.46.47:918][  0]LogFileCache: Scanning file cache for directory '/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/' took 0.01s
+[2021.03.03-19.46.47:918][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.03.03-19.46.47:918][  0]LogCook: Display: Mobile HDR setting 1
+[2021.03.03-19.46.56:653][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.03.03-19.46.56:923][  0]SourceControl: Source control is disabled
+[2021.03.03-19.46.56:924][  0]LogUnrealEdMisc: Loading editor; pre map load, took 77.670
+[2021.03.03-19.46.56:924][  0]Cmd: MAP LOAD FILE="../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.03.03-19.46.58:043][  0]LightingResults: New page: Lighting Build
+[2021.03.03-19.46.58:251][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.03.03-19.46.58:251][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.03-19.46.58:251][  0]MapCheck: New page: Map Check
+[2021.03.03-19.46.58:251][  0]LightingResults: New page: Lighting Build
+[2021.03.03-19.46.58:256][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2021.03.03-19.46.58:810][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonExampleMap'.
+[2021.03.03-19.46.58:810][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.03.03-19.46.58:822][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.03.03-19.46.58:835][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.03.03-19.46.58:839][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.03.03-19.46.58:839][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.331ms to complete.
+[2021.03.03-19.46.58:840][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.916
+[2021.03.03-19.46.58:841][  0]LogUnrealEdMisc: Total Editor Startup Time, took 79.588
+[2021.03.03-19.46.58:994][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.03-19.46.58:997][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.03-19.46.59:001][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.03-19.46.59:003][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.03-19.46.59:007][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.03-19.46.59:010][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.03-19.46.59:013][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.03-19.46.59:016][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.03-19.46.59:024][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0057 seconds. Added 3541 classes and 797 folders.
+[2021.03.03-19.46.59:527][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.03.03-19.46.59:529][  0]LogPakFile: OnPakFileMounted2Time == 0.000006
+[2021.03.03-19.46.59:529][  0]LogPakFile: OnPakFileMounted2Time == 0.000007
+[2021.03.03-19.46.59:530][  0]LogPakFile: OnPakFileMounted2Time == 0.000007
+[2021.03.03-19.46.59:530][  0]LogPakFile: OnPakFileMounted2Time == 0.000008
+[2021.03.03-19.46.59:531][  0]LogPakFile: OnPakFileMounted2Time == 0.000008
+[2021.03.03-19.46.59:531][  0]LogPakFile: OnPakFileMounted2Time == 0.000009
+[2021.03.03-19.46.59:532][  0]LogPakFile: OnPakFileMounted2Time == 0.000009
+[2021.03.03-19.46.59:532][  0]LogPakFile: OnPakFileMounted2Time == 0.000010
+[2021.03.03-19.46.59:533][  0]LogPakFile: OnPakFileMounted2Time == 0.000010
+[2021.03.03-19.46.59:533][  0]LogPakFile: OnPakFileMounted2Time == 0.000011
+[2021.03.03-19.46.59:533][  0]LogPakFile: OnPakFileMounted2Time == 0.000011
+[2021.03.03-19.46.59:534][  0]LogPakFile: OnPakFileMounted2Time == 0.000012
+[2021.03.03-19.46.59:534][  0]LogPakFile: OnPakFileMounted2Time == 0.000012
+[2021.03.03-19.46.59:535][  0]LogPakFile: OnPakFileMounted2Time == 0.000013
+[2021.03.03-19.46.59:535][  0]LogPakFile: OnPakFileMounted2Time == 0.000013
+[2021.03.03-19.46.59:536][  0]LogPakFile: OnPakFileMounted2Time == 0.000014
+[2021.03.03-19.46.59:536][  0]LogPakFile: OnPakFileMounted2Time == 0.000014
+[2021.03.03-19.46.59:537][  0]LogPakFile: OnPakFileMounted2Time == 0.000015
+[2021.03.03-19.46.59:537][  0]LogPakFile: OnPakFileMounted2Time == 0.000015
+[2021.03.03-19.46.59:538][  0]LogPakFile: OnPakFileMounted2Time == 0.000016
+[2021.03.03-19.46.59:538][  0]LogPakFile: OnPakFileMounted2Time == 0.000016
+[2021.03.03-19.46.59:538][  0]LogPakFile: OnPakFileMounted2Time == 0.000017
+[2021.03.03-19.46.59:539][  0]LogPakFile: OnPakFileMounted2Time == 0.000017
+[2021.03.03-19.46.59:539][  0]LogPakFile: OnPakFileMounted2Time == 0.000018
+[2021.03.03-19.46.59:540][  0]LogPakFile: OnPakFileMounted2Time == 0.000018
+[2021.03.03-19.46.59:540][  0]LogPakFile: OnPakFileMounted2Time == 0.000019
+[2021.03.03-19.46.59:552][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.03.03-19.46.59:785][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 3 folders.
+[2021.03.03-19.46.59:844][  0]LogVulkanRHI: Display: Requested PixelFormat 18 not supported by this swapchain! Falling back to supported swapchain format...
+[2021.03.03-19.46.59:845][  0]LogVulkanRHI: Display: Queue Family 0: Supports Present
+[2021.03.03-19.46.59:845][  0]LogVulkanRHI: Display: Queue Family 0: Supports Present
+[2021.03.03-19.46.59:845][  0]LogVulkanRHI: Display: Found 3 Surface present modes:
+[2021.03.03-19.46.59:845][  0]LogVulkanRHI: Display: - VK_PRESENT_MODE_FIFO_KHR (2)
+[2021.03.03-19.46.59:845][  0]LogVulkanRHI: Display: - VK_PRESENT_MODE_FIFO_RELAXED_KHR (3)
+[2021.03.03-19.46.59:845][  0]LogVulkanRHI: Display: - VK_PRESENT_MODE_IMMEDIATE_KHR (0)
+[2021.03.03-19.46.59:845][  0]LogVulkanRHI: Display: Selected VkPresentModeKHR mode 2
+[2021.03.03-19.46.59:845][  0]LogVulkanRHI: Creating new VK swapchain with present mode 2, format 44, color space 0, num images 3
+[2021.03.03-19.47.00:126][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.03.03-19.47.00:126][  0]LogInput: Warning: Action Jump uses invalid key OculusGo_Left_Trigger_Click.
+[2021.03.03-19.47.00:126][  0]LogInput: Warning: Action Jump uses invalid key MagicLeap_Left_Trigger.
+[2021.03.03-19.47.00:126][  0]LogInput: Warning: Action ResetVR uses invalid key OculusGo_Left_Trackpad_Click.
+[2021.03.03-19.47.00:126][  0]LogInput: Warning: Action ResetVR uses invalid key MagicLeap_Left_Bumper.
+[2021.03.03-19.47.00:126][  0]LogInput: Warning: Use -RemoveInvalidKeys to remove instances of these keys from the action mapping.
+[2021.03.03-19.47.00:126][  0]LogLoad: (Engine Initialization) Total time: 80.87 seconds
+[2021.03.03-19.47.00:126][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.03.03-19.47.00:126][  0]LogInit: First time updating LLM stats...
+[2021.03.03-19.47.00:135][  0]LogSlate: Took 0.000062 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.03.03-19.47.00:137][  0]LogSlate: Took 0.000046 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.03.03-19.47.00:212][  0]LogRenderer: Reallocating scene render targets to support 600x548 Format 10 NumSamples 1 (Frame:1).
+[2021.03.03-19.47.00:291][  0]LogRenderer: Reallocating scene render targets to support 600x572 Format 10 NumSamples 1 (Frame:2).
+[2021.03.03-19.47.00:327][  0]LogAssetRegistry: Asset discovery search completed in 66.8063 seconds
+[2021.03.03-19.47.00:328][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2021.03.03-19.47.00:348][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.03.03-19.47.10:757][607]LogSlate: Took 0.000049 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.03.03-19.47.10:767][607]LogSlate: Took 0.000062 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.03-19.47.20:789][205]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.03-19.47.20:796][205]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.03-19.47.20:796][205]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 3, 2021, 7:47:20 AM)
+[2021.03.03-19.47.20:815][205]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.03.03-19.47.20:815][205]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.03.03-19.47.20:815][205]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.03.03-19.47.20:830][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014784s)
+[2021.03.03-19.47.20:830][205]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.03.03-19.47.20:831][205]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2021.03.03-19.47.20:831][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015673s)
+[2021.03.03-19.47.20:835][205]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2021.03.03-19.47.20:836][205]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.03.03-19.47.20:837][205]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.03-19.47.20:837][205]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.03-19.47.20:837][205]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.03-19.47.20:837][205]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.03-19.47.20:837][205]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.03-19.47.20:837][205]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.03-19.47.20:837][205]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.03-19.47.20:837][205]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.03-19.47.20:837][205]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.03-19.47.20:837][205]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.03-19.47.20:837][205]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2021.03.03-19.47.20:880][205]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2021.03.03-19.47.20:881][205]LogAudioMixer: Display: Using Audio Device Default Audio Device
+[2021.03.03-19.47.20:881][205]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.03-19.47.20:881][205]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.03-19.47.20:881][205]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.03-19.47.20:882][205]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.03-19.47.20:882][205]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144
+[2021.03.03-19.47.20:883][205]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.03-19.47.20:883][205]LogInit: FAudioDevice initialized.
+[2021.03.03-19.47.20:883][205]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonExampleMap'.
+[2021.03.03-19.47.20:936][205]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.03.03-19.47.20:938][205]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.03.03-13.47.20
+[2021.03.03-19.47.20:939][205]LogWorld: Bringing up level for play took: 0.002250
+[2021.03.03-19.47.20:939][205]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2021.03.03-19.47.21:460][205]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.03.03-19.47.21:461][205]PIE: Server logged in
+[2021.03.03-19.47.21:463][205]PIE: Play in editor total start time 0.668 seconds.
+[2021.03.03-19.47.45:380][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.03-19.47.45:380][637]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.03.03-19.47.45:380][637]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.03.03-19.47.45:381][637]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.03-19.47.45:388][637]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.03-19.47.45:390][637]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.03-19.47.45:393][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.03-19.47.45:417][637]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2021.03.03-19.47.45:444][638]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2021.03.03-19.47.47:898][765]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:2682).
+[2021.03.03-19.47.49:837][878]LogRenderer: Reallocating scene render targets to support 1216x572 Format 10 NumSamples 1 (Frame:2796).
+[2021.03.03-19.47.49:890][879]LogRenderer: Reallocating scene render targets to support 1256x572 Format 10 NumSamples 1 (Frame:2798).
+[2021.03.03-19.47.49:945][881]LogRenderer: Reallocating scene render targets to support 1260x572 Format 10 NumSamples 1 (Frame:2802).
+[2021.03.03-19.47.49:962][882]LogRenderer: Reallocating scene render targets to support 1264x572 Format 10 NumSamples 1 (Frame:2804).
+[2021.03.03-19.47.49:994][884]LogRenderer: Reallocating scene render targets to support 1268x572 Format 10 NumSamples 1 (Frame:2808).
+[2021.03.03-19.47.50:027][886]LogRenderer: Reallocating scene render targets to support 1272x572 Format 10 NumSamples 1 (Frame:2812).
+[2021.03.03-19.47.50:061][888]LogRenderer: Reallocating scene render targets to support 1276x572 Format 10 NumSamples 1 (Frame:2816).
+[2021.03.03-19.47.53:437][ 76]LogRenderer: Reallocating scene render targets to support 1280x572 Format 10 NumSamples 1 (Frame:3014).
+[2021.03.03-19.47.53:470][ 78]LogRenderer: Reallocating scene render targets to support 1284x572 Format 10 NumSamples 1 (Frame:3017).
+[2021.03.03-19.47.53:516][ 81]LogRenderer: Reallocating scene render targets to support 1292x572 Format 10 NumSamples 1 (Frame:3022).
+[2021.03.03-19.47.53:536][ 82]LogRenderer: Reallocating scene render targets to support 1300x572 Format 10 NumSamples 1 (Frame:3024).
+[2021.03.03-19.47.53:588][ 83]LogRenderer: Reallocating scene render targets to support 1328x572 Format 10 NumSamples 1 (Frame:3026).
+[2021.03.03-19.47.53:621][ 83]LogRenderer: Reallocating scene render targets to support 1340x572 Format 10 NumSamples 1 (Frame:3028).
+[2021.03.03-19.47.53:685][ 85]LogRenderer: Reallocating scene render targets to support 1356x572 Format 10 NumSamples 1 (Frame:3030).
+[2021.03.03-19.47.53:794][ 86]LogRenderer: Reallocating scene render targets to support 1376x572 Format 10 NumSamples 1 (Frame:3034).
+[2021.03.03-19.47.53:854][ 88]LogRenderer: Reallocating scene render targets to support 1392x572 Format 10 NumSamples 1 (Frame:3036).
+[2021.03.03-19.47.53:880][ 89]LogRenderer: Reallocating scene render targets to support 1396x572 Format 10 NumSamples 1 (Frame:3038).
+[2021.03.03-19.47.53:920][ 90]LogRenderer: Reallocating scene render targets to support 1408x572 Format 10 NumSamples 1 (Frame:3040).
+[2021.03.03-19.47.53:954][ 92]LogRenderer: Reallocating scene render targets to support 1412x572 Format 10 NumSamples 1 (Frame:3043).
+[2021.03.03-19.47.53:987][ 94]LogRenderer: Reallocating scene render targets to support 1420x572 Format 10 NumSamples 1 (Frame:3047).
+[2021.03.03-19.47.54:015][ 96]LogRenderer: Reallocating scene render targets to support 1424x572 Format 10 NumSamples 1 (Frame:3051).
+[2021.03.03-19.47.54:036][ 97]LogRenderer: Reallocating scene render targets to support 1428x572 Format 10 NumSamples 1 (Frame:3053).
+[2021.03.03-19.47.54:052][ 98]LogRenderer: Reallocating scene render targets to support 1432x572 Format 10 NumSamples 1 (Frame:3055).
+[2021.03.03-19.47.54:071][ 99]LogRenderer: Reallocating scene render targets to support 1436x572 Format 10 NumSamples 1 (Frame:3057).
+[2021.03.03-19.47.54:125][103]LogRenderer: Reallocating scene render targets to support 1440x572 Format 10 NumSamples 1 (Frame:3063).
+[2021.03.03-19.47.54:152][105]LogRenderer: Reallocating scene render targets to support 1444x572 Format 10 NumSamples 1 (Frame:3067).
+[2021.03.03-19.47.54:204][108]LogRenderer: Reallocating scene render targets to support 1448x572 Format 10 NumSamples 1 (Frame:3072).
+[2021.03.03-19.47.54:235][110]LogRenderer: Reallocating scene render targets to support 1452x572 Format 10 NumSamples 1 (Frame:3076).
+[2021.03.03-19.47.54:254][111]LogRenderer: Reallocating scene render targets to support 1456x572 Format 10 NumSamples 1 (Frame:3078).
+[2021.03.03-19.47.54:287][113]LogRenderer: Reallocating scene render targets to support 1460x572 Format 10 NumSamples 1 (Frame:3082).
+[2021.03.03-19.47.54:323][115]LogRenderer: Reallocating scene render targets to support 1464x572 Format 10 NumSamples 1 (Frame:3085).
+[2021.03.03-19.47.54:603][132]LogRenderer: Reallocating scene render targets to support 1468x572 Format 10 NumSamples 1 (Frame:3104).
+[2021.03.03-19.47.54:720][139]LogRenderer: Reallocating scene render targets to support 1472x572 Format 10 NumSamples 1 (Frame:3113).
+[2021.03.03-19.47.54:854][147]LogRenderer: Reallocating scene render targets to support 1476x572 Format 10 NumSamples 1 (Frame:3122).
+[2021.03.03-19.47.54:900][149]LogRenderer: Reallocating scene render targets to support 1484x572 Format 10 NumSamples 1 (Frame:3126).
+[2021.03.03-19.47.54:987][155]LogRenderer: Reallocating scene render targets to support 1488x572 Format 10 NumSamples 1 (Frame:3134).
+[2021.03.03-19.47.55:089][161]LogRenderer: Reallocating scene render targets to support 1492x572 Format 10 NumSamples 1 (Frame:3142).
+[2021.03.03-19.47.55:119][163]LogRenderer: Reallocating scene render targets to support 1496x572 Format 10 NumSamples 1 (Frame:3146).
+[2021.03.03-19.47.55:153][165]LogRenderer: Reallocating scene render targets to support 1504x572 Format 10 NumSamples 1 (Frame:3150).
+[2021.03.03-19.48.16:867][ 52]MapCheck: New page: Map Check
+[2021.03.03-19.48.16:992][ 52]LightingResults: New page: Lighting Build - Mar 3, 2021, 7:48:16 AM
+[2021.03.03-19.48.16:998][ 52]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.03.03-19.48.16:998][ 52]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.03.03-19.48.16:998][ 52]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.03.03-19.48.16:998][ 52]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.03.03-19.48.16:998][ 52]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.03.03-19.48.17:129][ 52]LogEditorBuildUtils: Build time 0:00
+[2021.03.03-19.48.17:602][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2021.03.03-19.48.20:198][301]Lightmass on vertex: 2.49 sec total, 1.50 sec importing, 0 ms setup, 185 ms photons, 455 ms processing, 179 ms extra exporting [5/5 mappings]. Threads: 7.21 sec total, 788 ms processing.
+[2021.03.03-19.48.21:196][302]LogSlate: Took 0.000075 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.03-19.48.21:433][302]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.003s
+[2021.03.03-19.48.21:434][302]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.03.03-19.48.21:434][302]LogVolumetricLightmapImport:      BrickData (all levels) 0.1Mb
+[2021.03.03-19.48.21:434][302]LogVolumetricLightmapImport:      Bricks at depth
+[2021.03.03-19.48.21:434][302]LogVolumetricLightmapImport:          0: 3.3% covering 100.0% of volume
+[2021.03.03-19.48.21:434][302]LogVolumetricLightmapImport:          1: 13.3% covering 6.2% of volume
+[2021.03.03-19.48.21:434][302]LogVolumetricLightmapImport:          2: 83.3% covering 0.6% of volume
+[2021.03.03-19.48.21:434][302]LogVolumetricLightmapImport:      Bricks in each level
+[2021.03.03-19.48.21:434][302]LogVolumetricLightmapImport:          ThirdPersonExampleMap 			 30 bricks 	 100.0% (Persistent Level)
+[2021.03.03-19.48.21:596][302]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2021.03.03-19.48.21:596][302]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2021.03.03-19.48.21:596][302]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2021.03.03-19.48.21:596][302]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2021.03.03-19.48.21:596][302]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2021.03.03-19.48.21:596][302]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2021.03.03-19.48.21:596][302]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2021.03.03-19.48.21:655][302]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X512)
+[2021.03.03-19.48.21:655][302]LogStaticLightingSystem: ThirdPersonExampleMap_BuiltData storing lightmap data for 5 meshes in 2 LightmapResourceClusters (2.5 Meshes per cluster).
+[2021.03.03-19.48.21:662][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.03.03-19.48.21:725][302]LogStaticLightingSystem: Illumination: 4.60 sec (118 ms encoding lightmaps, 72 ms encoding shadowmaps)
+[2021.03.03-19.48.21:725][302]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2021.03.03-19.48.21:725][302]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2021.03.03-19.48.21:763][302]DumpUnbuiltLightIteractions
+[2021.03.03-19.48.21:763][302]Lights with unbuilt interactions: 0
+[2021.03.03-19.48.21:763][302]
+[2021.03.03-19.48.21:763][302]Primitives with unbuilt interactions: 0
+[2021.03.03-19.48.22:049][302]LogTexture: Display: Building textures: NewReflectionComponentTexture3884DE244CA9D1E5320A11B1C608A293 (BGRA8, 128X128)
+[2021.03.03-19.48.22:198][303]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.03.03-19.48.22:198][303]MapCheck: New page: ThirdPersonExampleMap - Mar 3, 2021, 7:48:22 AM
+[2021.03.03-19.48.22:199][303]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.86ms to complete.
+[2021.03.03-19.48.35:011][683]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.03.03-19.48.35:032][683]LogContentBrowser: Creating deferred item: NewFolder
+[2021.03.03-19.48.38:629][110]LogContentBrowser: Attempting asset rename: NewFolder -> Materials
+[2021.03.03-19.48.38:629][110]LogContentBrowser: End creating deferred item NewFolder
+[2021.03.03-19.48.49:746][218]LogDirectoryWatcher: Error: inotify_rm_watch cannot remove descriptor 3 for folder '/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Fire' (errno = 22, Invalid argument)
+[2021.03.03-19.48.49:749][218]LogDirectoryWatcher: Error: inotify_rm_watch cannot remove descriptor 3 for folder '/media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Fire' (errno = 22, Invalid argument)
+[2021.03.03-19.49.24:684][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Material" FILE="../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Materials/Material.uasset" SILENT=true
+[2021.03.03-19.49.24:704][174]LogSavePackage: Moving '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Material13261C48CABF4E56AB67250B88743D8A.tmp' to '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Materials/Material.uasset'
+[2021.03.03-19.49.24:714][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/MT_Crow" FILE="../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Materials/MT_Crow.uasset" SILENT=true
+[2021.03.03-19.49.24:790][174]LogSavePackage: Moving '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/MT_Crow07D40CD6CD6947AFBE98A7F064F9A1A7.tmp' to '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Materials/MT_Crow.uasset'
+[2021.03.03-19.49.25:152][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2021.03.03-19.49.25:156][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2021.03.03-19.49.25:201][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2021.03.03-19.49.25:205][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2021.03.03-19.49.25:362][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/flyingCrow" FILE="../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Meshes/flyingCrow.uasset" SILENT=true
+[2021.03.03-19.49.25:386][174]LogSavePackage: Moving '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/flyingCrow9C2307F1584C418A9BC2B040FA6798DE.tmp' to '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Meshes/flyingCrow.uasset'
+[2021.03.03-19.49.25:485][174]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.03-19.49.25:485][174]LogContentValidation: Display: Validating Material /Game/Materials/Material.Material
+[2021.03.03-19.49.25:485][174]LogContentValidation: Display: Validating Material /Game/Materials/MT_Crow.MT_Crow
+[2021.03.03-19.49.25:485][174]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/flyingCrow.flyingCrow
+[2021.03.03-19.49.33:597][732]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2021.03.03-19.49.33:745][732]LogContentBrowser: Creating deferred item: NewMaterial
+[2021.03.03-19.49.44:869][236]LogContentBrowser: Attempting asset rename: NewMaterial -> M_
+[2021.03.03-19.49.44:872][236]LogContentBrowser: End creating deferred item NewMaterial
+[2021.03.03-19.49.52:364][ 32]LogContentBrowser: Attempting asset rename: M_ -> M_ElectricArcs
+[2021.03.03-19.49.52:736][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_ElectricArcs" FILE="../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Materials/M_ElectricArcs.uasset" SILENT=true
+[2021.03.03-19.49.52:757][ 32]LogSavePackage: Moving '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/M_ElectricArcsAF2B7CB02C8342CEBCD84E298FAB0EDD.tmp' to '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Materials/M_ElectricArcs.uasset'
+[2021.03.03-19.49.53:137][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.03.03-19.49.53:200][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2021.03.03-19.49.53:205][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2021.03.03-19.49.53:266][ 32]AssetCheck: New page: Asset Save: M_ElectricArcs
+[2021.03.03-19.49.53:266][ 32]LogContentValidation: Display: Validating Material /Game/Materials/M_ElectricArcs.M_ElectricArcs
+[2021.03.03-19.49.58:705][467]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/M_ElectricArcs.M_ElectricArcs
+[2021.03.03-19.49.58:914][467]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MaterialEditor' in 0.0003 seconds. Added 3 classes and 0 folders.
+[2021.03.03-19.49.58:916][467]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-19.49.59:071][467]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-19.49.59:079][467]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-19.49.59:091][467]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2021.03.03-19.49.59:091][467]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2021.03.03-19.49.59:091][467]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2021.03.03-19.49.59:091][467]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2021.03.03-19.49.59:091][467]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2021.03.03-19.49.59:091][467]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2021.03.03-19.49.59:091][467]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2021.03.03-19.49.59:091][467]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2021.03.03-19.49.59:091][467]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2021.03.03-19.49.59:186][467]LogSlate: Took 0.000100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.03.03-19.49.59:796][491]MaterialEditorStats: Base pass shader: 0 instructions
+[2021.03.03-19.49.59:796][491]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 0 instructions
+[2021.03.03-19.49.59:796][491]MaterialEditorStats: Base pass vertex shader: 0 instructions
+[2021.03.03-19.49.59:796][491]MaterialEditorStats: Texture samplers: 2/16
+[2021.03.03-19.49.59:800][491]LogSlate: Took 0.000041 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.03.03-19.50.01:362][560]LogSlate: Window 'M_ElectricArcs' being destroyed
+[2021.03.03-19.57.26:154][638]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2021.03.03-19.57.26:155][638]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.016
+[2021.03.03-20.07.26:219][509]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2021.03.03-20.07.26:231][509]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.015
+[2021.03.03-20.16.38:914][876]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-20.16.38:927][876]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2021.03.03-20.16.38:927][876]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2021.03.03-20.16.38:927][876]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2021.03.03-20.16.38:927][876]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2021.03.03-20.16.38:927][876]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2021.03.03-20.16.38:927][876]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2021.03.03-20.16.38:927][876]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2021.03.03-20.16.38:927][876]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2021.03.03-20.16.38:927][876]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2021.03.03-20.16.39:475][916]MaterialEditorStats: Base pass shader: 0 instructions
+[2021.03.03-20.16.39:475][916]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 0 instructions
+[2021.03.03-20.16.39:475][916]MaterialEditorStats: Base pass vertex shader: 0 instructions
+[2021.03.03-20.16.39:475][916]MaterialEditorStats: Texture samplers: 2/16
+[2021.03.03-20.16.40:841][ 79]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-20.16.40:848][ 79]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-20.16.40:851][ 79]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-20.16.40:859][ 79]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-20.16.40:859][ 79]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-20.16.41:125][100]MaterialEditorStats: Base pass shader without light map: 0 instructions
+[2021.03.03-20.16.41:125][100]MaterialEditorStats: Base pass vertex shader: 0 instructions
+[2021.03.03-20.16.41:125][100]MaterialEditorStats: Texture samplers: 0/16
+[2021.03.03-20.17.46:977][498]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2021.03.03-20.17.46:988][498]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.015
+[2021.03.03-20.18.28:252][  2]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-20.18.28:268][  3]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-20.18.28:268][  3]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-20.18.28:270][  3]LogSlate: Took 0.000061 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.03.03-20.18.29:619][106]MaterialEditorStats: Base pass shader without light map: 0 instructions
+[2021.03.03-20.18.29:619][106]MaterialEditorStats: Base pass vertex shader: 0 instructions
+[2021.03.03-20.18.29:619][106]MaterialEditorStats: Texture samplers: 0/16
+[2021.03.03-20.18.32:646][251]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-20.18.32:658][251]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-20.18.32:658][251]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-20.18.33:089][278]MaterialEditorStats: Base pass shader without light map: 0 instructions
+[2021.03.03-20.18.33:089][278]MaterialEditorStats: Base pass vertex shader: 0 instructions
+[2021.03.03-20.18.33:089][278]MaterialEditorStats: Texture samplers: 0/16
+[2021.03.03-20.18.36:834][554]LogMaterialEditor: Applying material M_ElectricArcs
+[2021.03.03-20.18.37:587][554]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-20.18.37:632][554]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-20.18.37:632][554]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-20.18.37:924][554]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-20.18.37:932][554]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2021.03.03-20.18.37:939][554]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2021.03.03-20.18.37:939][554]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2021.03.03-20.18.37:939][554]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.03-20.18.38:266][554]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 2
+[2021.03.03-20.18.38:266][554]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 1
+[2021.03.03-20.18.38:269][554]TextureStreamingBuild: Display: Compiling optional shaders took 0.335 seconds.
+[2021.03.03-20.18.38:273][554]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2021.03.03-20.18.38:885][572]LogMaterialEditor: Saving and Compiling material M_ElectricArcs
+[2021.03.03-20.18.39:219][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_ElectricArcs" FILE="../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Materials/M_ElectricArcs.uasset" SILENT=true
+[2021.03.03-20.18.39:237][572]LogSavePackage: Moving '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/M_ElectricArcsEA8304CAC685407EAB2E98E7663A2999.tmp' to '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Materials/M_ElectricArcs.uasset'
+[2021.03.03-20.18.39:348][572]AssetCheck: New page: Asset Save: M_ElectricArcs
+[2021.03.03-20.18.39:348][572]LogContentValidation: Display: Validating Material /Game/Materials/M_ElectricArcs.M_ElectricArcs
+[2021.03.03-20.21.44:556][364]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.03.03-20.21.44:610][364]LogContentBrowser: Creating deferred item: NewFolder
+[2021.03.03-20.21.48:561][814]LogContentBrowser: Attempting asset rename: NewFolder -> ElectricArcs
+[2021.03.03-20.21.48:561][814]LogContentBrowser: End creating deferred item NewFolder
+[2021.03.03-20.22.57:106][697]LogSlate: Window 'Pick a starting point for your system' being destroyed
+[2021.03.03-20.22.57:210][697]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2021.03.03-20.22.57:210][697]LogMaterial: Display: Missing cached shader map for material DefaultRibbonMaterial, compiling. 
+[2021.03.03-20.22.57:236][697]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 40
+[2021.03.03-20.22.57:236][697]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 36
+[2021.03.03-20.22.57:236][697]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 32
+[2021.03.03-20.22.57:236][697]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 28
+[2021.03.03-20.22.57:236][697]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 24
+[2021.03.03-20.22.57:236][697]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 20
+[2021.03.03-20.22.57:236][697]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 16
+[2021.03.03-20.22.57:236][697]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 12
+[2021.03.03-20.22.57:236][697]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 8
+[2021.03.03-20.22.57:236][697]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 4
+[2021.03.03-20.22.57:237][697]LogContentBrowser: Deferred new asset file creation: NewNiagaraSystem
+[2021.03.03-20.22.57:245][697]LogContentBrowser: Creating deferred item: NewNiagaraSystem
+[2021.03.03-20.22.58:358][826]LogContentBrowser: Attempting asset rename: NewNiagaraSystem -> NewNiagaraSystem
+[2021.03.03-20.22.58:498][826]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2021.03.03-20.22.58:499][826]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-20.22.58:499][826]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 1
+[2021.03.03-20.22.58:499][826]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 1
+[2021.03.03-20.22.58:499][826]LogContentBrowser: End creating deferred item NewNiagaraSystem
+[2021.03.03-20.27.47:879][691]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2021.03.03-20.27.47:880][691]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.017
+[2021.03.03-20.27.47:881][691]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Niagara/ElectricArcs/NewNiagaraSystem] ([1] browsable assets)...
+[2021.03.03-20.27.47:881][691]OBJ SavePackage: Finished generating thumbnails for package [/Game/Niagara/ElectricArcs/NewNiagaraSystem]
+[2021.03.03-20.27.47:897][691]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/ElectricArcs/NewNiagaraSystem.NewNiagaraSystem took 289.502747 sec (time since issued), 1157.604980 sec (combined shader worker time).
+[2021.03.03-20.27.48:183][691]LogSavePackage: Moving '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/NewNiagaraSystem_Auto1E00B33A7523147B5BE8650F86E82F9D9.tmp' to '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Autosaves/Game/Niagara/ElectricArcs/NewNiagaraSystem_Auto1.uasset'
+[2021.03.03-20.27.48:184][691]LogFileHelpers: Auto-saving content packages took 0.304
+[2021.03.03-20.29.33:647][ 57]LogContentBrowser: Attempting asset rename: NewNiagaraSystem -> NS_ElectricArcs
+[2021.03.03-20.29.34:700][ 57]LogSavePackage: Moving '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/NS_ElectricArcs4CDAE25BCFA7425ABDA27086E6AB1959.tmp' to '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Niagara/ElectricArcs/NS_ElectricArcs.uasset'
+[2021.03.03-20.29.35:066][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2021.03.03-20.29.35:117][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.03.03-20.29.35:121][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2021.03.03-20.29.35:156][ 57]AssetCheck: New page: Asset Save: NS_ElectricArcs
+[2021.03.03-20.29.35:156][ 57]LogContentValidation: Display: Validating NiagaraSystem /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs
+[2021.03.03-20.30.08:794][447]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.03.03-20.30.08:846][447]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2021.03.03-20.30.08:867][447]LogContentBrowser: Creating deferred item: NewBlueprint
+[2021.03.03-20.30.09:832][563]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2021.03.03-20.30.09:836][563]LogContentBrowser: End creating deferred item NewBlueprint
+[2021.03.03-20.30.21:773][481]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_ElectricArcs
+[2021.03.03-20.30.22:102][481]LogMetaData: Removing '/Game/Niagara/ElectricArcs/BP_ElectricArcs.BP_ElectricArcs:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Niagara/ElectricArcs/NewBlueprint.PackageMetaData'
+[2021.03.03-20.30.22:102][481]LogMetaData: Removing '/Game/Niagara/ElectricArcs/BP_ElectricArcs.SKEL_BP_ElectricArcs_C:UserConstructionScript' ref from Metadata '/Game/Niagara/ElectricArcs/NewBlueprint.PackageMetaData'
+[2021.03.03-20.30.22:102][481]LogMetaData: Removing '/Game/Niagara/ElectricArcs/BP_ElectricArcs.SKEL_BP_ElectricArcs_C' ref from Metadata '/Game/Niagara/ElectricArcs/NewBlueprint.PackageMetaData'
+[2021.03.03-20.30.22:102][481]LogMetaData: Removing '/Game/Niagara/ElectricArcs/BP_ElectricArcs.BP_ElectricArcs_C' ref from Metadata '/Game/Niagara/ElectricArcs/NewBlueprint.PackageMetaData'
+[2021.03.03-20.30.22:102][481]LogMetaData: Removing '/Game/Niagara/ElectricArcs/BP_ElectricArcs.BP_ElectricArcs:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Niagara/ElectricArcs/NewBlueprint.PackageMetaData'
+[2021.03.03-20.30.22:102][481]LogMetaData: Removing '/Game/Niagara/ElectricArcs/BP_ElectricArcs.BP_ElectricArcs:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Niagara/ElectricArcs/NewBlueprint.PackageMetaData'
+[2021.03.03-20.30.22:102][481]LogMetaData: Removing '/Game/Niagara/ElectricArcs/BP_ElectricArcs.BP_ElectricArcs:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Niagara/ElectricArcs/NewBlueprint.PackageMetaData'
+[2021.03.03-20.30.22:463][481]LogSavePackage: Moving '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/BP_ElectricArcs24AE5378F35C4B9EA9D25F0E58232E9C.tmp' to '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Niagara/ElectricArcs/BP_ElectricArcs.uasset'
+[2021.03.03-20.30.22:873][481]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2021.03.03-20.30.22:933][481]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2021.03.03-20.30.22:937][481]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2021.03.03-20.30.22:983][481]AssetCheck: New page: Asset Save: BP_ElectricArcs
+[2021.03.03-20.30.22:983][481]LogContentValidation: Display: Validating Blueprint /Game/Niagara/ElectricArcs/BP_ElectricArcs.BP_ElectricArcs
+[2021.03.03-20.31.57:806][480]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Niagara/ElectricArcs/BP_ElectricArcs.BP_ElectricArcs
+[2021.03.03-20.31.58:186][480]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2021.03.03-20.31.58:820][481]LogRenderer: Reallocating scene render targets to support 1504x704 Format 10 NumSamples 1 (Frame:1).
+[2021.03.03-20.33.40:873][974]LogEditorTransaction: Undo Modify Component(s)
+[2021.03.03-20.33.40:875][974]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-20.33.40:888][974]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-20.33.40:888][974]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-20.33.41:155][975]LogEditorTransaction: Undo Rename Component Variable
+[2021.03.03-20.33.41:162][975]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-20.33.41:167][975]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2021.03.03-20.33.41:167][975]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2021.03.03-20.33.41:591][979]MaterialEditorStats: Base pass shader without light map: 0 instructions
+[2021.03.03-20.33.41:591][979]MaterialEditorStats: Base pass vertex shader: 0 instructions
+[2021.03.03-20.33.41:591][979]MaterialEditorStats: Texture samplers: 0/16
+[2021.03.03-20.33.57:882][ 65]LogRenderer: Reallocating scene render targets to support 1504x720 Format 10 NumSamples 1 (Frame:8518).
+[2021.03.03-20.34.36:440][835]LogEditorTransaction: Undo Set Node Enabled State
+[2021.03.03-20.34.36:444][835]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-20.34.36:457][835]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-20.34.36:457][835]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-20.34.36:865][837]MaterialEditorStats: Base pass shader without light map: 0 instructions
+[2021.03.03-20.34.36:865][837]MaterialEditorStats: Base pass vertex shader: 0 instructions
+[2021.03.03-20.34.36:865][837]MaterialEditorStats: Texture samplers: 0/16
+[2021.03.03-20.34.37:028][838]LogEditorTransaction: Undo Rename Component Variable
+[2021.03.03-20.34.37:035][838]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-20.34.37:042][838]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-20.34.37:042][838]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-20.34.37:295][852]MaterialEditorStats: Base pass shader without light map: 0 instructions
+[2021.03.03-20.34.37:295][852]MaterialEditorStats: Base pass vertex shader: 0 instructions
+[2021.03.03-20.34.37:295][852]MaterialEditorStats: Texture samplers: 0/16
+[2021.03.03-20.34.46:711][533]LogEditorTransaction: Undo Modify Component(s)
+[2021.03.03-20.34.46:713][533]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-20.34.46:742][533]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-20.34.46:742][533]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-20.34.46:961][533]LogEditorTransaction: Undo Set Scale
+[2021.03.03-20.34.46:964][533]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-20.34.47:159][534]LogEditorTransaction: Undo Set Scale
+[2021.03.03-20.34.47:162][534]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-20.34.47:345][535]LogEditorTransaction: Undo Set Scale
+[2021.03.03-20.34.47:348][535]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-20.34.47:485][548]LogEditorTransaction: Undo Add Component
+[2021.03.03-20.34.47:492][548]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-20.34.47:895][548]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2021.03.03-20.34.47:895][548]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2021.03.03-20.34.48:252][572]MaterialEditorStats: Base pass shader without light map: 0 instructions
+[2021.03.03-20.34.48:252][572]MaterialEditorStats: Base pass vertex shader: 0 instructions
+[2021.03.03-20.34.48:252][572]MaterialEditorStats: Texture samplers: 0/16
+[2021.03.03-20.36.13:209][809]BlueprintLog: New page: Compile BP_ElectricArcs
+[2021.03.03-20.36.13:259][809]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2021.03.03-20.36.14:275][829]LogSavePackage: Moving '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/BP_ElectricArcs04AEA6068D734F249FF338A5940B3EC5.tmp' to '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Niagara/ElectricArcs/BP_ElectricArcs.uasset'
+[2021.03.03-20.36.14:336][829]AssetCheck: New page: Asset Save: BP_ElectricArcs
+[2021.03.03-20.36.14:336][829]LogContentValidation: Display: Validating Blueprint /Game/Niagara/ElectricArcs/BP_ElectricArcs.BP_ElectricArcs
+[2021.03.03-20.36.24:801][ 23]BlueprintLog: New page: Compile BP_ElectricArcs
+[2021.03.03-20.36.24:835][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2021.03.03-20.36.25:798][ 26]LogSavePackage: Moving '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/BP_ElectricArcs0D69F9787B4D4C74AFEF5A7E27DEE8CC.tmp' to '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Niagara/ElectricArcs/BP_ElectricArcs.uasset'
+[2021.03.03-20.36.25:884][ 26]AssetCheck: New page: Asset Save: BP_ElectricArcs
+[2021.03.03-20.36.25:885][ 26]LogContentValidation: Display: Validating Blueprint /Game/Niagara/ElectricArcs/BP_ElectricArcs.BP_ElectricArcs
+[2021.03.03-20.37.48:981][194]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2021.03.03-20.37.48:983][194]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.022
+[2021.03.03-20.37.48:983][194]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Niagara/ElectricArcs/BP_ElectricArcs] ([2] browsable assets)...
+[2021.03.03-20.37.49:007][194]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Niagara/ElectricArcs/BP_ElectricArcs.BP_ElectricArcs]
+[2021.03.03-20.37.49:023][194]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Niagara/ElectricArcs/BP_ElectricArcs.BP_ElectricArcs]
+[2021.03.03-20.37.49:023][194]OBJ SavePackage: Finished generating thumbnails for package [/Game/Niagara/ElectricArcs/BP_ElectricArcs]
+[2021.03.03-20.37.49:049][194]LogSavePackage: Moving '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/BP_ElectricArcs_Auto259899FA59FEC47A88CB4DB815285928C.tmp' to '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Autosaves/Game/Niagara/ElectricArcs/BP_ElectricArcs_Auto2.uasset'
+[2021.03.03-20.37.49:050][194]LogFileHelpers: Auto-saving content packages took 0.068
+[2021.03.03-20.42.13:499][824]BlueprintLog: New page: Compile BP_ElectricArcs
+[2021.03.03-20.42.13:527][824]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2021.03.03-20.43.02:077][849]LogSavePackage: Moving '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/BP_ElectricArcs66B3183C92FC409C8D9FC9573F2652D3.tmp' to '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Niagara/ElectricArcs/BP_ElectricArcs.uasset'
+[2021.03.03-20.43.02:169][849]AssetCheck: New page: Asset Save: BP_ElectricArcs
+[2021.03.03-20.43.02:169][849]LogContentValidation: Display: Validating Blueprint /Game/Niagara/ElectricArcs/BP_ElectricArcs.BP_ElectricArcs
+[2021.03.03-20.44.43:088][490]BlueprintLog: New page: Compile BP_ElectricArcs
+[2021.03.03-20.44.43:116][490]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2021.03.03-20.44.58:274][563]BlueprintLog: New page: Compile BP_ElectricArcs
+[2021.03.03-20.44.58:300][563]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2021.03.03-20.46.20:779][100]LogEditorTransaction: Undo Straighten Connection(s)
+[2021.03.03-20.46.20:785][100]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-20.46.20:809][100]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-20.46.20:809][100]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-20.46.21:264][102]MaterialEditorStats: Base pass shader without light map: 0 instructions
+[2021.03.03-20.46.21:264][102]MaterialEditorStats: Base pass vertex shader: 0 instructions
+[2021.03.03-20.46.21:264][102]MaterialEditorStats: Texture samplers: 0/16
+[2021.03.03-20.48.33:525][224]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2021.03.03-20.48.33:526][224]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.020
+[2021.03.03-20.48.33:526][224]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Niagara/ElectricArcs/BP_ElectricArcs] ([2] browsable assets)...
+[2021.03.03-20.48.33:551][224]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Niagara/ElectricArcs/BP_ElectricArcs.BP_ElectricArcs]
+[2021.03.03-20.48.33:563][224]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Niagara/ElectricArcs/BP_ElectricArcs.BP_ElectricArcs]
+[2021.03.03-20.48.33:563][224]OBJ SavePackage: Finished generating thumbnails for package [/Game/Niagara/ElectricArcs/BP_ElectricArcs]
+[2021.03.03-20.48.33:594][224]LogSavePackage: Moving '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/BP_ElectricArcs_Auto3BF79EF5C52144EB1B14F58B966E7C66B.tmp' to '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Autosaves/Game/Niagara/ElectricArcs/BP_ElectricArcs_Auto3.uasset'
+[2021.03.03-20.48.33:596][224]LogFileHelpers: Auto-saving content packages took 0.070
+[2021.03.03-20.48.43:283][709]BlueprintLog: New page: Compile BP_ElectricArcs
+[2021.03.03-20.48.43:311][709]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.03.03-20.48.44:196][749]LogSavePackage: Moving '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/BP_ElectricArcs07819C8D43424EB7B495061B42FBB847.tmp' to '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Niagara/ElectricArcs/BP_ElectricArcs.uasset'
+[2021.03.03-20.48.44:285][749]AssetCheck: New page: Asset Save: BP_ElectricArcs
+[2021.03.03-20.48.44:285][749]LogContentValidation: Display: Validating Blueprint /Game/Niagara/ElectricArcs/BP_ElectricArcs.BP_ElectricArcs
+[2021.03.03-20.50.27:643][727]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.03.03-20.50.28:590][807]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.03-20.50.28:594][807]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.03-20.50.28:595][807]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 3, 2021, 8:50:28 AM)
+[2021.03.03-20.50.28:595][807]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.03.03-20.50.28:608][807]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013477s)
+[2021.03.03-20.50.28:609][807]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.03.03-20.50.28:609][807]LogPlayLevel: PIE: World Init took: (0.000552s)
+[2021.03.03-20.50.28:609][807]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.014172s)
+[2021.03.03-20.50.28:630][807]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2021.03.03-20.50.28:633][807]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.03.03-20.50.28:633][807]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.03-20.50.28:633][807]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.03-20.50.28:633][807]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.03-20.50.28:633][807]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.03-20.50.28:633][807]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.03-20.50.28:633][807]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.03-20.50.28:633][807]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.03-20.50.28:633][807]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.03-20.50.28:633][807]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.03-20.50.28:634][807]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.03-20.50.28:634][807]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2021.03.03-20.50.28:677][807]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2021.03.03-20.50.28:678][807]LogAudioMixer: Display: Using Audio Device Default Audio Device
+[2021.03.03-20.50.28:678][807]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.03-20.50.28:678][807]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.03-20.50.28:678][807]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.03-20.50.28:679][807]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.03-20.50.28:679][807]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144
+[2021.03.03-20.50.28:680][807]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.03-20.50.28:680][807]LogInit: FAudioDevice initialized.
+[2021.03.03-20.50.28:680][807]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonExampleMap'.
+[2021.03.03-20.50.28:703][807]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.03.03-20.50.28:706][807]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.03.03-14.50.28
+[2021.03.03-20.50.28:706][807]LogWorld: Bringing up level for play took: 0.002109
+[2021.03.03-20.50.28:706][807]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.03.03-20.50.28:707][807]PIE: Server logged in
+[2021.03.03-20.50.28:708][807]PIE: Play in editor total start time 0.114 seconds.
+[2021.03.03-20.51.48:875][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.03-20.51.48:875][402]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.03.03-20.51.48:876][402]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.03.03-20.51.48:876][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.03-20.51.48:879][402]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.03-20.51.48:895][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.03-20.51.48:910][402]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.03-20.51.48:940][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.03-20.51.48:944][402]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2021.03.03-20.51.48:995][403]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.03.03-20.51.51:945][730]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.03-20.51.51:951][730]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.03-20.51.51:951][730]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 3, 2021, 8:51:51 AM)
+[2021.03.03-20.51.51:987][730]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.03.03-20.51.52:000][730]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013461s)
+[2021.03.03-20.51.52:001][730]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.03.03-20.51.52:002][730]LogPlayLevel: PIE: World Init took: (0.001253s)
+[2021.03.03-20.51.52:002][730]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.014921s)
+[2021.03.03-20.51.52:020][730]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.03.03-20.51.52:022][730]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.03.03-20.51.52:022][730]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.03-20.51.52:022][730]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.03-20.51.52:022][730]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.03-20.51.52:022][730]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.03-20.51.52:022][730]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.03-20.51.52:022][730]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.03-20.51.52:022][730]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.03-20.51.52:022][730]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.03-20.51.52:023][730]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.03-20.51.52:023][730]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.03-20.51.52:023][730]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2021.03.03-20.51.52:066][730]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2021.03.03-20.51.52:067][730]LogAudioMixer: Display: Using Audio Device Default Audio Device
+[2021.03.03-20.51.52:067][730]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.03-20.51.52:067][730]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.03-20.51.52:067][730]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.03-20.51.52:068][730]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.03-20.51.52:068][730]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144
+[2021.03.03-20.51.52:068][730]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.03-20.51.52:068][730]LogInit: FAudioDevice initialized.
+[2021.03.03-20.51.52:068][730]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonExampleMap'.
+[2021.03.03-20.51.52:078][730]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.03.03-20.51.52:080][730]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.03.03-14.51.52
+[2021.03.03-20.51.52:081][730]LogWorld: Bringing up level for play took: 0.002541
+[2021.03.03-20.51.52:081][730]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.03.03-20.51.52:082][730]PIE: Server logged in
+[2021.03.03-20.51.52:083][730]PIE: Play in editor total start time 0.133 seconds.
+[2021.03.03-20.52.12:550][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.03-20.52.12:550][159]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.03.03-20.52.12:551][159]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.03.03-20.52.12:551][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.03-20.52.12:555][159]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.03-20.52.12:572][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.03-20.52.12:590][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.03-20.52.12:619][159]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2021.03.03-20.52.12:669][160]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.03.03-20.52.17:479][675]LogEditorViewport: Clicking on Actor (LMB): BP_ElectricArcs_C (BP_ElectricArcs)
+[2021.03.03-20.53.01:904][113]LogEditorTransaction: Undo Make New Scene Root
+[2021.03.03-20.53.01:911][113]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-20.53.01:941][113]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-20.53.01:941][113]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-20.53.02:530][116]MaterialEditorStats: Base pass shader without light map: 0 instructions
+[2021.03.03-20.53.02:530][116]MaterialEditorStats: Base pass vertex shader: 0 instructions
+[2021.03.03-20.53.02:530][116]MaterialEditorStats: Texture samplers: 0/16
+[2021.03.03-20.54.16:051][976]LogEditorTransaction: Undo Modify Component(s)
+[2021.03.03-20.54.16:054][976]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-20.54.16:078][976]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-20.54.16:078][976]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-20.54.16:715][979]MaterialEditorStats: Base pass shader without light map: 0 instructions
+[2021.03.03-20.54.16:715][979]MaterialEditorStats: Base pass vertex shader: 0 instructions
+[2021.03.03-20.54.16:715][979]MaterialEditorStats: Texture samplers: 0/16
+[2021.03.03-20.56.29:816][470]BlueprintLog: New page: Compile BP_ElectricArcs
+[2021.03.03-20.56.29:896][470]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2021.03.03-20.56.53:972][330]LogEditorTransaction: Undo Modify Component(s)
+[2021.03.03-20.56.53:977][330]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-20.56.54:001][330]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-20.56.54:001][330]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-20.56.54:522][333]MaterialEditorStats: Base pass shader without light map: 0 instructions
+[2021.03.03-20.56.54:522][333]MaterialEditorStats: Base pass vertex shader: 0 instructions
+[2021.03.03-20.56.54:522][333]MaterialEditorStats: Texture samplers: 0/16
+[2021.03.03-20.58.04:234][824]BlueprintLog: New page: Compile BP_ElectricArcs
+[2021.03.03-20.58.04:285][824]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2021.03.03-20.58.23:779][802]BlueprintLog: New page: Compile BP_ElectricArcs
+[2021.03.03-20.58.23:839][802]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2021.03.03-20.58.31:501][574]LogEditorViewport: Clicking on Actor (LMB): BP_ElectricArcs_C (BP_ElectricArcs)
+[2021.03.03-20.59.23:242][237]BlueprintLog: New page: Compile BP_ElectricArcs
+[2021.03.03-20.59.23:289][237]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2021.03.03-20.59.24:075][247]LogSavePackage: Moving '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/BP_ElectricArcs5A5EC795E4B54ACA88B609F1C194FEB1.tmp' to '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Niagara/ElectricArcs/BP_ElectricArcs.uasset'
+[2021.03.03-20.59.24:163][247]AssetCheck: New page: Asset Save: BP_ElectricArcs
+[2021.03.03-20.59.24:163][247]LogContentValidation: Display: Validating Blueprint /Game/Niagara/ElectricArcs/BP_ElectricArcs.BP_ElectricArcs
+[2021.03.03-20.59.46:196][447]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs
+[2021.03.03-20.59.46:332][447]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 3
+[2021.03.03-20.59.46:332][447]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 2
+[2021.03.03-20.59.46:332][447]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2021.03.03-20.59.46:332][447]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2021.03.03-20.59.46:717][447]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs took 0.509020 sec (time since issued), 1.726009 sec (combined shader worker time).
+[2021.03.03-20.59.46:848][454]28893_NS_ElectricArcs_MessageLog: System successfully compiled.
+[2021.03.03-21.01.11:533][253]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2021.03.03-21.01.11:533][253]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-21.01.11:556][253]28893_NS_ElectricArcs_MessageLog: System compile status unknown.
+[2021.03.03-21.01.11:735][270]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs took 0.306584 sec (time since issued), 0.427948 sec (combined shader worker time).
+[2021.03.03-21.01.13:549][348]28893_NS_ElectricArcs_MessageLog: System successfully compiled.
+[2021.03.03-21.01.31:933][717]LogNiagaraEditor: Removed Var 'Constants.StaticBeam.SetVariables_C5A2748E74EC438A96825CDC37315BEC.StaticBeam.LifeTime' from Script NiagaraScript /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs:SystemUpdateScript
+[2021.03.03-21.01.31:937][717]LogNiagaraEditor: Removed Var 'Constants.StaticBeam.SetVariables_C5A2748E74EC438A96825CDC37315BEC.StaticBeam.LifeTime' from Script NiagaraScript /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs:StaticBeam.EmitterUpdateScript
+[2021.03.03-21.01.32:191][720]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2021.03.03-21.01.32:191][720]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-21.01.32:217][721]28893_NS_ElectricArcs_MessageLog: System compile status unknown.
+[2021.03.03-21.01.32:435][740]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs took 0.318910 sec (time since issued), 0.394863 sec (combined shader worker time).
+[2021.03.03-21.01.34:217][949]28893_NS_ElectricArcs_MessageLog: System successfully compiled.
+[2021.03.03-21.02.01:835][194]LogNiagaraEditor: Removed Var 'Constants.StaticBeam.EmitterState.Loop Duration' from Script NiagaraScript /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs:SystemUpdateScript
+[2021.03.03-21.02.01:835][194]LogNiagaraEditor: Removed Var 'Constants.StaticBeam.EmitterState.Loop Duration' from Script NiagaraScript /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs:StaticBeam.EmitterUpdateScript
+[2021.03.03-21.02.02:036][198]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-21.02.02:036][198]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-21.02.02:053][198]28893_NS_ElectricArcs_MessageLog: System compile status unknown.
+[2021.03.03-21.02.02:320][224]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs took 0.362346 sec (time since issued), 0.529897 sec (combined shader worker time).
+[2021.03.03-21.02.04:206][289]28893_NS_ElectricArcs_MessageLog: System successfully compiled.
+[2021.03.03-21.02.07:082][424]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2021.03.03-21.02.07:083][424]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-21.02.07:100][424]28893_NS_ElectricArcs_MessageLog: System compile status unknown.
+[2021.03.03-21.02.07:592][482]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs took 0.589020 sec (time since issued), 0.916576 sec (combined shader worker time).
+[2021.03.03-21.02.09:338][529]28893_NS_ElectricArcs_MessageLog: System successfully compiled.
+[2021.03.03-21.03.05:545][584]LogNiagaraEditor: Removed Var 'Constants.StaticBeam.InitializeParticle.Lifetime' from Script NiagaraScript /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs:StaticBeam.SpawnScript
+[2021.03.03-21.03.05:755][586]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-21.03.05:755][586]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-21.03.05:773][586]28893_NS_ElectricArcs_MessageLog: System compile status unknown.
+[2021.03.03-21.03.05:986][611]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs took 0.309603 sec (time since issued), 0.441448 sec (combined shader worker time).
+[2021.03.03-21.03.07:775][796]28893_NS_ElectricArcs_MessageLog: System successfully compiled.
+[2021.03.03-21.03.13:027][982]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2021.03.03-21.03.13:027][982]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-21.03.13:044][982]28893_NS_ElectricArcs_MessageLog: System compile status unknown.
+[2021.03.03-21.03.14:339][ 93]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs took 1.389672 sec (time since issued), 2.279945 sec (combined shader worker time).
+[2021.03.03-21.03.16:689][100]28893_NS_ElectricArcs_MessageLog: System successfully compiled.
+[2021.03.03-21.03.39:298][ 67]LogSlate: Window 'Color Picker' being destroyed
+[2021.03.03-21.03.48:749][987]LogSlate: Window 'Color Picker' being destroyed
+[2021.03.03-21.03.55:200][262]LogSlate: Window 'Color Picker' being destroyed
+[2021.03.03-21.04.03:497][583]LogSlate: Window 'Color Picker' being destroyed
+[2021.03.03-21.04.22:802][269]LogSlate: Window 'Color Picker' being destroyed
+[2021.03.03-21.04.25:812][417]LogSlate: Window 'Color Picker' being destroyed
+[2021.03.03-21.04.28:502][530]LogSlate: Window 'Color Picker' being destroyed
+[2021.03.03-21.04.40:903][272]LogSlate: Window 'Color Picker' being destroyed
+[2021.03.03-21.05.04:187][844]LogSlate: Window 'Color Picker' being destroyed
+[2021.03.03-21.05.10:218][122]LogSlate: Window 'Color Picker' being destroyed
+[2021.03.03-21.05.13:994][444]LogSlate: Window 'Color Picker' being destroyed
+[2021.03.03-21.05.18:000][649]LogSlate: Window 'Color Picker' being destroyed
+[2021.03.03-21.05.57:865][102]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 3
+[2021.03.03-21.05.57:865][102]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 2
+[2021.03.03-21.05.57:865][102]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2021.03.03-21.05.57:883][102]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2021.03.03-21.05.57:883][102]28893_NS_ElectricArcs_MessageLog: System compile status unknown.
+[2021.03.03-21.05.58:162][113]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs took 0.380105 sec (time since issued), 1.199594 sec (combined shader worker time).
+[2021.03.03-21.06.00:123][227]28893_NS_ElectricArcs_MessageLog: System successfully compiled.
+[2021.03.03-21.06.23:298][854]LogMaterial: Display: Material /Game/Materials/M_ElectricArcs.M_ElectricArcs needed to have new flag set bUsedWithNiagaraRibbons !
+[2021.03.03-21.06.23:301][854]LogMaterial: Display: Material /Engine/Transient.M_ElectricArcs needed to have new flag set bUsedWithNiagaraRibbons !
+[2021.03.03-21.06.23:302][854]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-21.06.23:306][854]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-21.06.23:359][854]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 6
+[2021.03.03-21.06.23:359][854]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 5
+[2021.03.03-21.06.23:359][854]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 4
+[2021.03.03-21.06.23:359][854]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 3
+[2021.03.03-21.06.23:360][854]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 2
+[2021.03.03-21.06.23:360][854]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 1
+[2021.03.03-21.06.23:780][873]MaterialEditorStats: Base pass shader without light map: 0 instructions
+[2021.03.03-21.06.23:780][873]MaterialEditorStats: Base pass vertex shader: 0 instructions
+[2021.03.03-21.06.23:780][873]MaterialEditorStats: Texture samplers: 0/16
+[2021.03.03-21.06.29:437][276]LogMaterialEditor: Saving and Compiling material M_ElectricArcs
+[2021.03.03-21.06.30:204][276]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-21.06.30:242][276]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-21.06.30:242][276]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-21.06.30:619][276]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-21.06.30:652][276]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2021.03.03-21.06.30:652][276]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2021.03.03-21.06.30:652][276]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2021.03.03-21.06.30:652][276]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2021.03.03-21.06.30:679][276]LogUObjectHash: Compacting FUObjectHashTables data took   6.14ms
+[2021.03.03-21.06.30:685][276]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.03-21.06.30:943][276]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 2
+[2021.03.03-21.06.30:943][276]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 1
+[2021.03.03-21.06.30:945][276]TextureStreamingBuild: Display: Compiling optional shaders took 0.264 seconds.
+[2021.03.03-21.06.30:975][276]LogUObjectHash: Compacting FUObjectHashTables data took   5.07ms
+[2021.03.03-21.06.31:404][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_ElectricArcs" FILE="../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Materials/M_ElectricArcs.uasset" SILENT=true
+[2021.03.03-21.06.31:422][276]LogSavePackage: Moving '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/M_ElectricArcs9FEC179623D94BAFBA6CA40398303953.tmp' to '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Materials/M_ElectricArcs.uasset'
+[2021.03.03-21.06.31:484][276]AssetCheck: New page: Asset Save: M_ElectricArcs
+[2021.03.03-21.06.31:484][276]LogContentValidation: Display: Validating Material /Game/Materials/M_ElectricArcs.M_ElectricArcs
+[2021.03.03-21.06.37:760][874]28893_NS_ElectricArcs_MessageLog: System successfully compiled.
+[2021.03.03-21.06.39:121][894]LogSavePackage: Moving '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/NS_ElectricArcs2082EAE16A4B4B48AD2E830D10D9B663.tmp' to '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Niagara/ElectricArcs/NS_ElectricArcs.uasset'
+[2021.03.03-21.06.39:216][894]AssetCheck: New page: Asset Save: NS_ElectricArcs
+[2021.03.03-21.06.39:216][894]LogContentValidation: Display: Validating NiagaraSystem /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs
+[2021.03.03-21.10.30:704][958]LogNiagaraEditor: Removed Var 'Constants.StaticBeam.BeamEmitterSetup.Beam End' from Script NiagaraScript /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs:SystemUpdateScript
+[2021.03.03-21.10.30:704][958]LogNiagaraEditor: Removed Var 'Constants.StaticBeam.BeamEmitterSetup.Beam End' from Script NiagaraScript /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs:StaticBeam.EmitterUpdateScript
+[2021.03.03-21.10.30:889][962]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2021.03.03-21.10.30:889][962]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-21.10.30:905][962]28893_NS_ElectricArcs_MessageLog: System compile status unknown.
+[2021.03.03-21.10.31:151][991]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs took 0.342325 sec (time since issued), 0.464431 sec (combined shader worker time).
+[2021.03.03-21.10.32:917][ 43]28893_NS_ElectricArcs_MessageLog: System successfully compiled.
+[2021.03.03-21.10.42:699][192]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2021.03.03-21.10.42:699][192]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-21.10.42:715][192]28893_NS_ElectricArcs_MessageLog: System compile status unknown.
+[2021.03.03-21.10.42:928][216]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs took 0.303340 sec (time since issued), 0.427851 sec (combined shader worker time).
+[2021.03.03-21.10.44:716][391]28893_NS_ElectricArcs_MessageLog: System successfully compiled.
+[2021.03.03-21.12.03:201][ 32]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-21.12.03:201][ 32]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-21.12.03:219][ 32]28893_NS_ElectricArcs_MessageLog: System compile status unknown.
+[2021.03.03-21.12.03:421][ 56]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs took 0.295133 sec (time since issued), 0.444824 sec (combined shader worker time).
+[2021.03.03-21.12.05:504][146]28893_NS_ElectricArcs_MessageLog: System successfully compiled.
+[2021.03.03-21.12.20:009][868]LogNiagaraEditor: Removed Var 'Constants.StaticBeam.BeamWidth.Beam Width' from Script NiagaraScript /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs:StaticBeam.SpawnScript
+[2021.03.03-21.12.20:256][869]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-21.12.20:256][869]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-21.12.20:281][870]28893_NS_ElectricArcs_MessageLog: System compile status unknown.
+[2021.03.03-21.12.20:466][890]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs took 0.284261 sec (time since issued), 0.426625 sec (combined shader worker time).
+[2021.03.03-21.12.22:518][970]28893_NS_ElectricArcs_MessageLog: System successfully compiled.
+[2021.03.03-21.13.26:913][767]LogMaterial: Display: Material /Game/Geometry/Meshes/CubeMaterial.CubeMaterial needed to have new flag set bUsedWithNiagaraMeshParticles !
+[2021.03.03-21.13.26:916][767]LogMaterial: Display: Missing cached shader map for material CubeMaterial, compiling. 
+[2021.03.03-21.13.26:972][768]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 33
+[2021.03.03-21.13.26:972][768]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 30
+[2021.03.03-21.13.26:972][768]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 27
+[2021.03.03-21.13.26:972][768]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 24
+[2021.03.03-21.13.26:972][768]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 21
+[2021.03.03-21.13.26:972][768]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 18
+[2021.03.03-21.13.26:972][768]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 15
+[2021.03.03-21.13.26:972][768]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 12
+[2021.03.03-21.13.26:972][768]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 9
+[2021.03.03-21.13.26:972][768]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 6
+[2021.03.03-21.13.26:972][768]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 3
+[2021.03.03-21.22.49:059][986]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-21.22.49:059][986]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-21.22.49:090][987]28893_NS_ElectricArcs_MessageLog: System compile status unknown.
+[2021.03.03-21.22.49:284][  8]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs took 0.318840 sec (time since issued), 0.467141 sec (combined shader worker time).
+[2021.03.03-21.22.51:315][116]28893_NS_ElectricArcs_MessageLog: System successfully compiled.
+[2021.03.03-21.22.54:362][293]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2021.03.03-21.22.55:347][293]LogSavePackage: Moving '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/ThirdPersonExampleMap_Auto411E7767562D24D74BEB9D385B07ECE45.tmp' to '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2021.03.03-21.22.55:349][293]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 1.010
+[2021.03.03-21.22.55:349][293]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 1.010
+[2021.03.03-21.22.55:349][293]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/CubeMaterial] ([1] browsable assets)...
+[2021.03.03-21.22.55:372][293]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Geometry/Meshes/CubeMaterial.CubeMaterial]
+[2021.03.03-21.22.55:372][293]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/CubeMaterial]
+[2021.03.03-21.22.55:390][293]LogSavePackage: Moving '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/CubeMaterial_Auto46A839EE9F93647E28E1CA3FFFA3A8B54.tmp' to '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Autosaves/Game/Geometry/Meshes/CubeMaterial_Auto4.uasset'
+[2021.03.03-21.22.55:392][293]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Niagara/ElectricArcs/NS_ElectricArcs] ([1] browsable assets)...
+[2021.03.03-21.22.55:392][293]OBJ SavePackage: Finished generating thumbnails for package [/Game/Niagara/ElectricArcs/NS_ElectricArcs]
+[2021.03.03-21.22.55:795][293]LogSavePackage: Moving '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/NS_ElectricArcs_Auto438C2DCFE06D34CD391480A673CE248AE.tmp' to '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/Autosaves/Game/Niagara/ElectricArcs/NS_ElectricArcs_Auto4.uasset'
+[2021.03.03-21.22.55:797][293]LogFileHelpers: Auto-saving content packages took 0.448
+[2021.03.03-21.23.09:121][908]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-21.23.09:121][908]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-21.23.09:154][909]28893_NS_ElectricArcs_MessageLog: System compile status unknown.
+[2021.03.03-21.23.09:329][928]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs took 0.298317 sec (time since issued), 0.381588 sec (combined shader worker time).
+[2021.03.03-21.23.11:161][ 92]28893_NS_ElectricArcs_MessageLog: System successfully compiled.
+[2021.03.03-21.23.13:416][270]28893_NS_ElectricArcs_MessageLog: System compile status unknown.
+[2021.03.03-21.23.15:545][283]28893_NS_ElectricArcs_MessageLog: System successfully compiled.
+[2021.03.03-21.23.17:725][391]LogSavePackage: Moving '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/NS_ElectricArcsBC9BA7A4E85841FF89E969DDE4054574.tmp' to '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Niagara/ElectricArcs/NS_ElectricArcs.uasset'
+[2021.03.03-21.23.17:827][391]AssetCheck: New page: Asset Save: NS_ElectricArcs
+[2021.03.03-21.23.17:827][391]LogContentValidation: Display: Validating NiagaraSystem /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs
+[2021.03.03-21.23.17:848][392]28893_NS_ElectricArcs_MessageLog: System successfully compiled.
+[2021.03.03-21.23.26:410][924]28893_NS_ElectricArcs_MessageLog: System compile status unknown.
+[2021.03.03-21.23.28:415][121]28893_NS_ElectricArcs_MessageLog: System successfully compiled.
+[2021.03.03-21.24.25:478][618]LogSavePackage: Moving '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Saved/NS_ElectricArcs9BD0C44021854307BDF0A0585698AF4A.tmp' to '../../../../../../media/yasg061/YasFiles/2021/UnrealProjects/Test_UE4/Content/Niagara/ElectricArcs/NS_ElectricArcs.uasset'
+[2021.03.03-21.24.25:546][618]AssetCheck: New page: Asset Save: NS_ElectricArcs
+[2021.03.03-21.24.25:546][618]LogContentValidation: Display: Validating NiagaraSystem /Game/Niagara/ElectricArcs/NS_ElectricArcs.NS_ElectricArcs
+[2021.03.03-21.24.28:251][889]Cmd: TRANSACTION UNDO
+[2021.03.03-21.24.28:251][889]LogEditorTransaction: Undo Insert new module
+[2021.03.03-21.24.28:259][889]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-21.24.28:435][889]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-21.24.28:435][889]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-21.24.28:504][889]Cmd: TRANSACTION UNDO
+[2021.03.03-21.24.28:504][889]LogEditorTransaction: Undo Delete modules
+[2021.03.03-21.24.28:519][889]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-21.24.28:772][889]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 8
+[2021.03.03-21.24.28:772][889]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 7
+[2021.03.03-21.24.28:772][889]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 6
+[2021.03.03-21.24.28:772][889]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 5
+[2021.03.03-21.24.28:772][889]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 4
+[2021.03.03-21.24.28:772][889]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 3
+[2021.03.03-21.24.28:772][889]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 2
+[2021.03.03-21.24.28:773][889]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 1
+[2021.03.03-21.24.28:891][890]Cmd: TRANSACTION UNDO
+[2021.03.03-21.24.28:891][890]LogEditorTransaction: Undo Enable/Disable Module
+[2021.03.03-21.24.28:900][890]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-21.24.29:084][890]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 2
+[2021.03.03-21.24.29:084][890]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 1
+[2021.03.03-21.24.29:084][890]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-21.24.29:084][890]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2021.03.03-21.24.29:226][891]Cmd: TRANSACTION UNDO
+[2021.03.03-21.24.29:226][891]LogEditorTransaction: Undo Enable/Disable Module
+[2021.03.03-21.24.29:240][891]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-21.24.29:320][892]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-21.24.29:320][892]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-21.24.29:431][899]28893_NS_ElectricArcs_MessageLog: System successfully compiled.
+[2021.03.03-21.24.29:607][920]MaterialEditorStats: Base pass shader without light map: 0 instructions
+[2021.03.03-21.24.29:607][920]MaterialEditorStats: Base pass vertex shader: 0 instructions
+[2021.03.03-21.24.29:607][920]MaterialEditorStats: Texture samplers: 0/16
+[2021.03.03-21.24.29:924][958]Cmd: TRANSACTION UNDO
+[2021.03.03-21.24.29:924][958]LogEditorTransaction: Undo Insert new module
+[2021.03.03-21.24.29:932][958]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-21.24.29:993][958]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-21.24.29:993][958]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-21.24.30:216][966]MaterialEditorStats: Base pass shader without light map: 0 instructions
+[2021.03.03-21.24.30:216][966]MaterialEditorStats: Base pass vertex shader: 0 instructions
+[2021.03.03-21.24.30:216][966]MaterialEditorStats: Texture samplers: 0/16
+[2021.03.03-21.24.30:432][992]Cmd: TRANSACTION UNDO
+[2021.03.03-21.24.30:432][992]LogEditorTransaction: Undo Delete Renderer
+[2021.03.03-21.24.30:435][992]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-21.24.30:501][992]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-21.24.30:501][992]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-21.24.30:690][999]MaterialEditorStats: Base pass shader without light map: 0 instructions
+[2021.03.03-21.24.30:690][999]MaterialEditorStats: Base pass vertex shader: 0 instructions
+[2021.03.03-21.24.30:690][999]MaterialEditorStats: Texture samplers: 0/16
+[2021.03.03-21.24.30:904][ 23]Cmd: TRANSACTION UNDO
+[2021.03.03-21.24.30:904][ 23]LogEditorTransaction: Undo Edit Particle Mesh
+[2021.03.03-21.24.30:907][ 23]LogMaterial: Display: Missing cached shader map for material M_ElectricArcs, compiling. 
+[2021.03.03-21.24.30:962][ 23]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.03.03-21.24.30:962][ 23]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.03.03-21.24.31:174][ 30]MaterialEditorStats: Base pass shader without light map: 0 instructions
+[2021.03.03-21.24.31:174][ 30]MaterialEditorStats: Base pass vertex shader: 0 instructions
+[2021.03.03-21.24.31:174][ 30]MaterialEditorStats: Texture samplers: 0/16
+[2021.03.03-21.24.31:398][ 57]Cmd: TRANSACTION UNDO
+[2021.03.03-21.24.31:398][ 57]LogEditorTransaction: Undo Add new renderer
+[2021.03.03-21.24.31:456][ 57]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.03.03-21.24.31:456][ 57]LogCore: === Critical error: ===
+Unhandled Exception: SIGSEGV: invalid attempt to read memory at address 0x0000000000000000
+
+[2021.03.03-21.24.31:456][ 57]LogCore: Fatal error!
+
+0x00007f65f708471a libUE4Editor-NiagaraEditorWidgets.so!SNiagaraOverviewStackNode::FillThumbnailBar(UObject*, bool) [/home/yasg061/UnrealEngine4_26/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/SNiagaraOverviewStackNode.cpp:406]
+0x00007f65f71bf29d libUE4Editor-NiagaraEditorWidgets.so!TBaseSPMethodDelegateInstance<false, SNiagaraOverviewStackNode, (ESPMode)0, void (), FDefaultDelegateUserPolicy>::ExecuteIfSafe() const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:307]
+0x00007f66223e5e3c libUE4Editor-NiagaraEditor.so!TMulticastDelegate<void (), FDefaultDelegateUserPolicy>::Broadcast() const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:955]
+0x00007f66227fa606 libUE4Editor-NiagaraEditor.so!UNiagaraStackViewModel::EntryStructureChanged() [/home/yasg061/UnrealEngine4_26/Engine/Plugins/FX/Niagara/Source/NiagaraEditor/Private/ViewModels/Stack/NiagaraStackViewModel.cpp:638]
+0x00007f66228cd63c libUE4Editor-NiagaraEditor.so!TBaseUObjectMethodDelegateInstance<false, UNiagaraStackViewModel, void (), FDefaultDelegateUserPolicy>::ExecuteIfSafe() const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:609]
+0x00007f66223e5e3c libUE4Editor-NiagaraEditor.so!TMulticastDelegate<void (), FDefaultDelegateUserPolicy>::Broadcast() const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:955]
+0x00007f662276957c libUE4Editor-NiagaraEditor.so!TBaseUObjectMethodDelegateInstance<false, UNiagaraStackEntry, void (), FDefaultDelegateUserPolicy>::ExecuteIfSafe() const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:609]
+0x00007f66223e5e3c libUE4Editor-NiagaraEditor.so!TMulticastDelegate<void (), FDefaultDelegateUserPolicy>::Broadcast() const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:955]
+0x00007f662276957c libUE4Editor-NiagaraEditor.so!TBaseUObjectMethodDelegateInstance<false, UNiagaraStackEntry, void (), FDefaultDelegateUserPolicy>::ExecuteIfSafe() const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:609]
+0x00007f66223e5e3c libUE4Editor-NiagaraEditor.so!TMulticastDelegate<void (), FDefaultDelegateUserPolicy>::Broadcast() const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:955]
+0x00007f66226fdef3 libUE4Editor-NiagaraEditor.so!UNiagaraStackEntry::RefreshChildren() [/home/yasg061/UnrealEngine4_26/Engine/Plugins/FX/Niagara/Source/NiagaraEditor/Private/ViewModels/Stack/NiagaraStackEntry.cpp:665]
+0x00007f66227690dc libUE4Editor-NiagaraEditor.so!TBaseUObjectMethodDelegateInstance<false, UNiagaraStackEmitterPropertiesItem, void (), FDefaultDelegateUserPolicy>::ExecuteIfSafe() const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:609]
+0x00007f6622e9be0c libUE4Editor-Niagara.so!TMulticastDelegate<void (), FDefaultDelegateUserPolicy>::Broadcast() const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:955]
+0x00007f662316ba78 libUE4Editor-Niagara.so!UNiagaraEmitter::PostEditChangeProperty(FPropertyChangedEvent&) [/home/yasg061/UnrealEngine4_26/Engine/Plugins/FX/Niagara/Source/Niagara/Private/NiagaraEmitter.cpp:806]
+0x00007f6780d8b0c2 libUE4Editor-CoreUObject.so!UObject::PostEditChange() [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/CoreUObject/Private/UObject/Obj.cpp:342]
+0x00007f6780d8c099 libUE4Editor-CoreUObject.so!UObject::PostEditUndo() [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/CoreUObject/Private/UObject/Obj.cpp:547]
+0x00007f6779d2e051 libUE4Editor-UnrealEd.so!FTransaction::Apply() [/home/yasg061/UnrealEngine4_26/Engine/Source/Editor/UnrealEd/Private/EditorTransaction.cpp:964]
+0x00007f6779d32eff libUE4Editor-UnrealEd.so!UTransBuffer::Undo(bool) [/home/yasg061/UnrealEngine4_26/Engine/Source/Editor/UnrealEd/Private/EditorTransaction.cpp:1503]
+0x00007f6779cfeb6a libUE4Editor-UnrealEd.so!UEditorEngine::Exec(UWorld*, char16_t const*, FOutputDevice&) [/home/yasg061/UnrealEngine4_26/Engine/Source/Editor/UnrealEd/Private/EditorServer.cpp:5753]
+0x00007f677a7ae554 libUE4Editor-UnrealEd.so!UUnrealEdEngine::Exec(UWorld*, char16_t const*, FOutputDevice&) [/home/yasg061/UnrealEngine4_26/Engine/Source/Editor/UnrealEd/Private/UnrealEdSrv.cpp:697]
+0x00007f67818caf72 libUE4Editor-Core.so!decltype(auto) UE4Tuple_Private::TTupleBase<TIntegerSequence<unsigned int, 0u>, FString>::ApplyAfter<void (* const&)(FString)>(void (* const&&&)(FString)) const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Templates/Tuple.h:299]
+0x00007f67818caf01 libUE4Editor-Core.so!TBaseStaticDelegateInstance<void (), FDefaultDelegateUserPolicy, FString>::ExecuteIfSafe() const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:729]
+0x00007f677b5d5ae1 libUE4Editor-Slate.so!FUICommandList::ConditionalProcessCommandBindings(FKey, bool, bool, bool, bool, bool) const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Slate/Private/Framework/Commands/UICommandList.cpp:220]
+0x00007f677b5d5616 libUE4Editor-Slate.so!FUICommandList::ProcessCommandBindings(FKeyEvent const&) const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Slate/Private/Framework/Commands/UICommandList.cpp:163]
+0x00007f6769c0ae38 libUE4Editor-MainFrame.so!FMainFrameActionCallbacks::OnUnhandledKeyDownEvent(FKeyEvent const&) [/home/yasg061/UnrealEngine4_26/Engine/Source/Editor/MainFrame/Private/Frame/MainFrameActions.cpp:244]
+0x00007f6769c61bcd libUE4Editor-MainFrame.so!TBaseStaticDelegateInstance<FReply (FKeyEvent const&), FDefaultDelegateUserPolicy>::Execute(FKeyEvent const&) const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:721]
+0x00007f677b5a34ff libUE4Editor-Slate.so!FSlateApplication::ProcessKeyDownEvent(FKeyEvent const&) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:4349]
+0x00007f677b5a1bfa libUE4Editor-Slate.so!FSlateApplication::OnKeyDown(int, unsigned int, bool) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:4222]
+0x00007f677ba44745 libUE4Editor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:264]
+0x00007f677ba441e1 libUE4Editor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:428]
+0x0000000000266942 UE4Editor!FEngineLoop::Tick() [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:4748]
+0x0000000000276593 UE4Editor!GuardedMain(char16_t const*) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Launch/Private/Launch.cpp:171]
+0x00007f67789c7056 libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:264]
+0x00007f67787ed0b3 libc.so.6!__libc_start_main(+0xf2)
+0x000000000025f4c9 UE4Editor!_start()
+
+[2021.03.03-21.24.31:486][ 57]LogExit: Executing StaticShutdownAfterError

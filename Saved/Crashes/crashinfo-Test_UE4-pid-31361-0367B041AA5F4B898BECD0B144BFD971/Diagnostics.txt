@@ -1,0 +1,54 @@
+Generating report for minidump
+
+Application version 4.26.1.0
+ ... built from changelist 0
+
+OS version Linux 5.8.0-44-generic (network name: vertex)
+Running 8 x86_64 processors (16 logical cores)
+Exception was "SIGSEGV: invalid attempt to read memory at address 0x0000000000000000"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-NiagaraEditorWidgets.so!SNiagaraOverviewStackNode::FillThumbnailBar(UObject*, bool) [/home/yasg061/UnrealEngine4_26/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/SNiagaraOverviewStackNode.cpp:406]
+libUE4Editor-NiagaraEditorWidgets.so!TBaseSPMethodDelegateInstance<false, SNiagaraOverviewStackNode, (ESPMode)0, void (), FDefaultDelegateUserPolicy>::ExecuteIfSafe() const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:307]
+libUE4Editor-NiagaraEditor.so!TMulticastDelegate<void (), FDefaultDelegateUserPolicy>::Broadcast() const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:955]
+libUE4Editor-NiagaraEditor.so!UNiagaraStackViewModel::EntryStructureChanged() [/home/yasg061/UnrealEngine4_26/Engine/Plugins/FX/Niagara/Source/NiagaraEditor/Private/ViewModels/Stack/NiagaraStackViewModel.cpp:638]
+libUE4Editor-NiagaraEditor.so!TBaseUObjectMethodDelegateInstance<false, UNiagaraStackViewModel, void (), FDefaultDelegateUserPolicy>::ExecuteIfSafe() const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:609]
+libUE4Editor-NiagaraEditor.so!TMulticastDelegate<void (), FDefaultDelegateUserPolicy>::Broadcast() const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:955]
+libUE4Editor-NiagaraEditor.so!TBaseUObjectMethodDelegateInstance<false, UNiagaraStackEntry, void (), FDefaultDelegateUserPolicy>::ExecuteIfSafe() const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:609]
+libUE4Editor-NiagaraEditor.so!TMulticastDelegate<void (), FDefaultDelegateUserPolicy>::Broadcast() const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:955]
+libUE4Editor-NiagaraEditor.so!TBaseUObjectMethodDelegateInstance<false, UNiagaraStackEntry, void (), FDefaultDelegateUserPolicy>::ExecuteIfSafe() const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:609]
+libUE4Editor-NiagaraEditor.so!TMulticastDelegate<void (), FDefaultDelegateUserPolicy>::Broadcast() const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:955]
+libUE4Editor-NiagaraEditor.so!UNiagaraStackEntry::RefreshChildren() [/home/yasg061/UnrealEngine4_26/Engine/Plugins/FX/Niagara/Source/NiagaraEditor/Private/ViewModels/Stack/NiagaraStackEntry.cpp:665]
+libUE4Editor-NiagaraEditor.so!TBaseUObjectMethodDelegateInstance<false, UNiagaraStackEmitterPropertiesItem, void (), FDefaultDelegateUserPolicy>::ExecuteIfSafe() const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:609]
+libUE4Editor-Niagara.so!TMulticastDelegate<void (), FDefaultDelegateUserPolicy>::Broadcast() const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:955]
+libUE4Editor-Niagara.so!UNiagaraEmitter::PostEditChangeProperty(FPropertyChangedEvent&) [/home/yasg061/UnrealEngine4_26/Engine/Plugins/FX/Niagara/Source/Niagara/Private/NiagaraEmitter.cpp:806]
+libUE4Editor-CoreUObject.so!UObject::PostEditChange() [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/CoreUObject/Private/UObject/Obj.cpp:342]
+libUE4Editor-CoreUObject.so!UObject::PostEditUndo() [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/CoreUObject/Private/UObject/Obj.cpp:547]
+libUE4Editor-UnrealEd.so!FTransaction::Apply() [/home/yasg061/UnrealEngine4_26/Engine/Source/Editor/UnrealEd/Private/EditorTransaction.cpp:964]
+libUE4Editor-UnrealEd.so!UTransBuffer::Undo(bool) [/home/yasg061/UnrealEngine4_26/Engine/Source/Editor/UnrealEd/Private/EditorTransaction.cpp:1503]
+libUE4Editor-UnrealEd.so!UEditorEngine::Exec(UWorld*, char16_t const*, FOutputDevice&) [/home/yasg061/UnrealEngine4_26/Engine/Source/Editor/UnrealEd/Private/EditorServer.cpp:5753]
+libUE4Editor-UnrealEd.so!UUnrealEdEngine::Exec(UWorld*, char16_t const*, FOutputDevice&) [/home/yasg061/UnrealEngine4_26/Engine/Source/Editor/UnrealEd/Private/UnrealEdSrv.cpp:697]
+libUE4Editor-Core.so!decltype(auto) UE4Tuple_Private::TTupleBase<TIntegerSequence<unsigned int, 0u>, FString>::ApplyAfter<void (* const&)(FString)>(void (* const&&&)(FString)) const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Templates/Tuple.h:299]
+libUE4Editor-Core.so!TBaseStaticDelegateInstance<void (), FDefaultDelegateUserPolicy, FString>::ExecuteIfSafe() const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:729]
+libUE4Editor-Slate.so!FUICommandList::ConditionalProcessCommandBindings(FKey, bool, bool, bool, bool, bool) const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Slate/Private/Framework/Commands/UICommandList.cpp:220]
+libUE4Editor-Slate.so!FUICommandList::ProcessCommandBindings(FKeyEvent const&) const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Slate/Private/Framework/Commands/UICommandList.cpp:163]
+libUE4Editor-MainFrame.so!FMainFrameActionCallbacks::OnUnhandledKeyDownEvent(FKeyEvent const&) [/home/yasg061/UnrealEngine4_26/Engine/Source/Editor/MainFrame/Private/Frame/MainFrameActions.cpp:244]
+libUE4Editor-MainFrame.so!TBaseStaticDelegateInstance<FReply (FKeyEvent const&), FDefaultDelegateUserPolicy>::Execute(FKeyEvent const&) const [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:721]
+libUE4Editor-Slate.so!FSlateApplication::ProcessKeyDownEvent(FKeyEvent const&) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:4349]
+libUE4Editor-Slate.so!FSlateApplication::OnKeyDown(int, unsigned int, bool) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:4222]
+libUE4Editor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:264]
+libUE4Editor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:428]
+UE4Editor!FEngineLoop::Tick() [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:4748]
+UE4Editor!GuardedMain(char16_t const*) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Launch/Private/Launch.cpp:171]
+libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/yasg061/UnrealEngine4_26/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:264]
+libc.so.6!__libc_start_main(+0xf2)
+UE4Editor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
